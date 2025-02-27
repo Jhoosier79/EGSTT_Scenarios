@@ -1,0 +1,52 @@
+id,name,color,abbrev,rgb
+1,Public,"0.9, 0.9, 0.9",Pub,#E6E6E6
+2,Zirax,"0.9, 0.2, 0.2",Zirax,#E63333
+3,Predator,"0.9, 0.75, 0",Prd,#E6BF00
+4,Prey,"0.75, 0.75, 0.75",Pry,#BFBFBF
+5,Admin,"0, 0.9, 0.9",Admin,#00E6E6
+6,Talon,"0.2, 0.9, 0.2",Talon,#33E633
+7,Polaris,"0.9, 0.6, 0.2",Polaris,#E69933
+8,Alien,"0.9, 0.0, 0.9",Unknown,#E600E6
+9,DESC,"0.9, 0.9, 0.9",DSC,#E6E6E6
+10,TheLegacy,"0, 1, 0.67",The Legacy,#00FFAB
+11,UCH,"0.2, 0.2, 0.9",UCH,#3333E6
+12,Progenitor,"0.9, 0.9, 0.9",Progenitor,#E6E6E6
+13,Void,"0, 0, 0",The Void,#000000
+14,GLaD,"0.2, 0.2, 0.9",GLaD,#3333E6
+15,Civilian,"0.9, 0.9, 0.9",Civilian,#E6E6E6
+27,Warlord,"0.7, 0, 0",Hostile,#B20000
+31,NTY,"0.9, 0.2, 0.2",NTY,#E63333
+32,Hishkal,"0.9, 0.2, 0.2",HIS,#E63333
+16,Pirates,"0.8, 0.8, 0",Pirates,#CCCC00
+17,Kriel,"0.5, 0, 0.8",Kriel,#8000CC
+18,Trader,"0.6, 1, 1",Trader,#99FFFF
+19,Colonists,"0.3, 0.65, 1",Colonists,#4CA6FF
+20,Tesch,"0.9, 0.2, 0.6",Tesch,#E63399
+28,Farr,"1, 0.9, 0.7",Farr,#FFE6B2
+29,Wastelanders,"0.7, 0.4, 0.3",Wastelanders,#B2664C
+30,ARC,"1, 0.9, 0.7",ARC,#FFE6B2
+21,Xenu,"0.9, 0.2, 0.2",House Xenu,#E63333
+22,Rados,"0.9, 0.2, 0.2",House Rados,#E63333
+23,Epsilon,"0.9, 0.2, 0.2",House Epsilon,#E63333
+24,Ghyst,"0.9, 0.2, 0.2",House Ghyst,#E63333
+25,Serdu,"0.9, 0.2, 0.2",House Serdu,#E63333
+26,Abyssal,"0.9, 0.2, 0.2",House Abyssal,#E63333
+60,Eden_Progenitor,"0, 0.6, 0.55",Ancient Progenitor,#00998C
+61,Eden_Civilization,"0.5, 0.5, 0.5",Civ,#808080
+62,Eden_Drone,"1, 0.4, 0",Drone,#FF6600
+63,Eden_DroneHome,"1, 0.4, 0",Drone Swarm,#FF6600
+64,Eden_PolarisTerritory,"0, 0.9, 0.9",Polaris Territory,#00E6E6
+65,Eden_ZiraxTerritory,"0, 0.9, 0.9",Zirax Territory,#00E6E6
+66,Eden_TraderTerritory,"0.6, 1, 1",Trader Defense,#99FFFF
+67,Eden_PiratesTerritory,"0.9, 0.9, 0.9",Pirates Territory,#E6E6E6
+68,Eden_Wreck,"0.9, 0.9, 0.9",Wreck,#E6E6E6
+69,Eden_Defender,"0, 1, 1",Ally,#00FFFF
+70,Eden_ColonistsTerritory,"0.3, 0.65, 1",Colonists Territory,#4CA6FF
+71,Eden_PiratesDefense,"0, 0.9, 0.9",Pirate Defense,#00E6E6
+72,Eden_PolarisDefense,"0, 0.9, 0.9",PolSec,#00E6E6
+73,Eden_NeutralTerritory,"0, 0.9, 0.9",Non Affiliated,#00E6E6
+74,Eden_SolitudeTerritory,"0.7, 0, 0",Solitude Territory,#B20000
+75,Eden_Resource,"0.75, 0.75, 0.75",Resource,#BFBFBF
+76,Eden_Ravagers,"0.7, 0.4, 0.3",Ravagers,#B2664C
+77,Eden_EnemySupport,"0.7, 0, 0",Hostile Support,#B20000
+78,Eden_DefenderSupport,"0, 1, 1",Ally Support,#00FFFF

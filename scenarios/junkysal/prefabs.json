@@ -1,0 +1,65 @@
+[
+    {
+        "FileName": "JS_BAO_Sarduccis",
+        "GroupName": "JS_Sarducci",
+        "DisplayName": "Sarducci's",
+        "Ent": "TraderCyborgServant",
+        "Type": "AuntMarys",
+        "Pay": 254,
+        "Restock": 60
+    },
+    {
+        "FileName": "JS_BAO_Sarduccis",
+        "GroupName": "JS_Sarducci",
+        "DisplayName": "Sarducci's",
+        "Ent": "TraderCyborgMedical",
+        "Type": "JS_JunkTraderHVSV",
+        "Pay": 254,
+        "Restock": 60
+    },
+    {
+        "FileName": "JS_BAO_Sarduccis",
+        "GroupName": "JS_Sarducci",
+        "DisplayName": "Sarducci's",
+        "Ent": "TraderCyborgEngineer",
+        "Type": "JS_JunkTraderSV",
+        "Pay": 254,
+        "Restock": 60
+    },
+    {
+        "FileName": "JS_BAO_Sarduccis",
+        "GroupName": "JS_Sarducci",
+        "DisplayName": "Sarducci's",
+        "Ent": "TraderCyborgDamaged",
+        "Type": "JS_JunkTraderHV",
+        "Pay": 254,
+        "Restock": 60
+    },
+    {
+        "FileName": "JS_BA_XenuJunkStart",
+        "GroupName": "JS_desertstart",
+        "DisplayName": "Destroyed Xenu Fort",
+        "Ent": "TraderCyborgDamaged",
+        "Type": "JS_JunkTraderHV",
+        "Pay": 254,
+        "Restock": 60
+    },
+    {
+        "FileName": "JS_BA_XenuJunkStart",
+        "GroupName": "JS_desertstart",
+        "DisplayName": "Destroyed Xenu Fort",
+        "Ent": "TraderCyborgEngineer",
+        "Type": "JS_JunkTraderSV",
+        "Pay": 254,
+        "Restock": 60
+    },
+    {
+        "FileName": "JS_BA_XenuJunkStart",
+        "GroupName": "JS_desertstart",
+        "DisplayName": "Destroyed Xenu Fort",
+        "Ent": "TraderCyborgMedical",
+        "Type": "JS_JunkTraderHVSV",
+        "Pay": 254,
+        "Restock": 60
+    }
+]

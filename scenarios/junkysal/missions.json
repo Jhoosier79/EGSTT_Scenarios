@@ -1,0 +1,44 @@
+[
+  {
+    "dialog_name": "JS_IDA_Tower_Init"
+  },
+  {
+    "dialog_name": "JS_IDA_Tower_Convo1"
+  },
+  {
+    "dialog_name": "JS_IDA_Tower_Convo2"
+  },
+  {
+    "dialog_name": "JS_IDA_Tower_Convo3"
+  },
+  {
+    "dialog_name": "JS_IDA_Tower_Convo4"
+  },
+  {
+    "dialog_name": "JS_IDA_Tower_Convo5"
+  },
+  {
+    "dialog_name": "JS_IDA_Tower_Convo6"
+  },
+  {
+    "dialog_name": "JS_Sarducci_Init"
+  },
+  {
+    "dialog_name": "JS_Sarducci_Convo1"
+  },
+  {
+    "dialog_name": "JS_Sarducci_Convo2"
+  },
+  {
+    "dialog_name": "JS_Sarducci_Convo3"
+  },
+  {
+    "dialog_name": "JS_Sarducci_Convo4"
+  },
+  {
+    "dialog_name": "JS_Sarducci_Convo5"
+  },
+  {
+    "dialog_name": "JS_Sarducci_Convo6"
+  }
+]

@@ -1,0 +1,662 @@
+{
+  "JS_Alien": {
+    "PlayfieldType": "Planet",
+    "Description": null,
+    "PlanetClass": "Alien",
+    "PlanetType": "Alien",
+    "Difficulty": 4,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_BarrenMetal": {
+    "PlayfieldType": "Planet",
+    "Description": null,
+    "PlanetClass": "BarrenMetal",
+    "PlanetType": "BarrenMetal",
+    "Difficulty": 4,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_Desert": {
+    "PlayfieldType": "Planet",
+    "Description": null,
+    "PlanetClass": "Desert",
+    "PlanetType": "Desert",
+    "Difficulty": 3,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_DesertStarter": {
+    "PlayfieldType": "Planet",
+    "Description": "A desert planet with many junk vessels and destroyed bases. There are no resources to mine. A nullification field has been setup around the planet, which has cut off the blueprint factory service. Find a small vessel on the surface and restore it, to get off of this planet.",
+    "PlanetClass": "JunkDesert",
+    "PlanetType": "JunkDesert",
+    "Difficulty": 2,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_desertstart",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_royaltemple",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_tower",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      },
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_antennas",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "TS_Akua",
+        "Faction": null
+      }
+    ]
+  },
+  "JS_Lava": {
+    "PlayfieldType": "Planet",
+    "Description": null,
+    "PlanetClass": "Lava",
+    "PlanetType": "Lava",
+    "Difficulty": 4,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_Moon": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "Moon",
+    "PlanetType": "Moon",
+    "Difficulty": 2,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_Moon2": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "Desert Barren",
+    "PlanetType": "Moon2",
+    "Difficulty": 3,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonDesert": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "MoonDesert",
+    "PlanetType": "MoonDesert",
+    "Difficulty": 3,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonForest": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "MoonForest",
+    "PlanetType": "MoonForest",
+    "Difficulty": 3,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonIce": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "MoonIce",
+    "PlanetType": "MoonIce",
+    "Difficulty": 2,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonIce2": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "MoonIce2",
+    "PlanetType": "MoonIce2",
+    "Difficulty": 2,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonIce3": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "MoonIce3",
+    "PlanetType": "MoonIce3",
+    "Difficulty": 1,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonLava": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "MoonLava",
+    "PlanetType": "MoonLava",
+    "Difficulty": 3,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonLava2": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "MoonLava2",
+    "PlanetType": "MoonLava2",
+    "Difficulty": 3,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonStarter": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "Barren",
+    "PlanetType": "MoonStarter",
+    "Difficulty": 1,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonTemperate": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "Temperate",
+    "PlanetType": "TemperateStarter",
+    "Difficulty": 1,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_MoonTemperate2": {
+    "PlayfieldType": "Moon",
+    "Description": null,
+    "PlanetClass": "Temperate",
+    "PlanetType": "TemperateStarter",
+    "Difficulty": 1,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_Ocean": {
+    "PlayfieldType": "Planet",
+    "Description": null,
+    "PlanetClass": "Ocean",
+    "PlanetType": "Ocean",
+    "Difficulty": 2,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_Snow": {
+    "PlayfieldType": "Planet",
+    "Description": null,
+    "PlanetClass": "Snow",
+    "PlanetType": "Snow",
+    "Difficulty": 3,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  },
+  "JS_Temperate": {
+    "PlayfieldType": "Planet",
+    "Description": null,
+    "PlanetClass": "Temperate",
+    "PlanetType": "Temperate",
+    "Difficulty": 2,
+    "RandomResources": null,
+    "FixedResources": null,
+    "AsteroidResources": null,
+    "PointsOfInterest": [
+      {
+        "GroupName": "JS_RuinsT1",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_RuinsT2",
+        "Faction": "Alien"
+      },
+      {
+        "GroupName": "JS_HVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_SVJ",
+        "Faction": "None"
+      },
+      {
+        "GroupName": "JS_Inhibitor",
+        "Faction": "UCH"
+      }
+    ]
+  }
+}
