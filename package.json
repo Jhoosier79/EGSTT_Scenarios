@@ -1,0 +1,30 @@
+{
+  "name": "egs-scenarios",
+  "version": "1.0.0",
+  "description": "Empyrion Galactic Survival scenario repository with dynamic registry generation",
+  "main": "registry.json",
+  "scripts": {
+    "generate-registry": "node scripts/generate-registry.js",
+    "validate-scenarios": "node scripts/validate-scenarios.js",
+    "validate-scenario": "node scripts/validate-scenarios.js --scenario",
+    "test": "npm run validate-scenarios && npm run generate-registry"
+  },
+  "keywords": [
+    "empyrion",
+    "galactic-survival",
+    "egs",
+    "scenarios",
+    "gaming",
+    "modding"
+  ],
+  "author": "EGS Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/egs-scenarios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/egs-scenarios/issues"
+  },
+  "homepage": "https://github.com/username/egs-scenarios#readme"
+}

@@ -1,4 +1,31 @@
 {
-    "name": "Reforged Eden 2",
-    "version": "Build 26"
+  "id": "reforged-eden-2",
+  "name": "Reforged Eden 2",
+  "version": "2.1.4",
+  "description": "Enhanced gameplay with new factions, items, and balance changes",
+  "author": "Vermillion",
+  "gameVersion": "1.12.0",
+  "lastUpdated": "2025-01-15T10:30:00Z",
+  "tags": ["enhanced", "rebalanced", "multiplayer"],
+  "difficulty": "intermediate",
+  "features": [
+    "New factions",
+    "Rebalanced economy",
+    "Additional traders",
+    "Enhanced crafting system"
+  ],
+  "requirements": {
+    "minGameVersion": "1.10.0",
+    "dlcRequired": false
+  },
+  "compatibility": {
+    "singlePlayer": true,
+    "multiplayer": true,
+    "dedicatedServer": true
+  },
+  "links": {
+    "forum": "https://empyriononline.com/threads/reforged-eden-2.12345/",
+    "discord": "https://discord.gg/reforged-eden",
+    "documentation": "https://docs.reforged-eden.com"
   }
+}

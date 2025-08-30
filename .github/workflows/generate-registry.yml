@@ -1,0 +1,70 @@
+name: Generate Registry
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    # Run daily at 2:00 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force registry update'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  generate-registry:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Allow pushing changes
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: scripts/package.json
+        
+    - name: Install dependencies
+      run: |
+        cd scripts
+        npm ci
+        
+    - name: Generate registry
+      run: |
+        cd scripts
+        npm run generate-registry -- --verbose --base-url="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/scenarios/"
+        
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet registry.json; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push changes
+      if: steps.changes.outputs.changed == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add registry.json
+        git commit -m "Auto-update registry.json $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+        git push
+        
+    - name: Upload registry artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: registry-json
+        path: registry.json
+        retention-days: 30

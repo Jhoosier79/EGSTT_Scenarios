@@ -1,0 +1,112 @@
+name: Validate Scenarios
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'scenarios/**'
+      - 'scripts/**'
+  push:
+    branches: [ '**' ]
+    paths:
+      - 'scenarios/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: scripts/package.json
+        
+    - name: Install dependencies
+      run: |
+        cd scripts
+        npm ci
+        
+    - name: Run scenario validation
+      id: validation
+      run: |
+        cd scripts
+        npm run validate-scenarios -- --verbose --json > validation-results.json
+        echo "validation-passed=true" >> $GITHUB_OUTPUT
+      continue-on-error: true
+        
+    - name: Check validation results
+      if: steps.validation.outcome == 'failure'
+      run: |
+        echo "validation-passed=false" >> $GITHUB_OUTPUT
+        echo "Scenario validation failed!"
+        cat scripts/validation-results.json | jq '.scenarios[] | select(.isValid == false) | {name, errors, warnings}'
+        exit 1
+        
+    - name: Upload validation results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-results
+        path: scripts/validation-results.json
+        retention-days: 7
+        
+    - name: Comment PR with validation results
+      if: github.event_name == 'pull_request' && always()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          
+          let results;
+          try {
+            results = JSON.parse(fs.readFileSync('scripts/validation-results.json', 'utf8'));
+          } catch (error) {
+            console.log('Could not read validation results file');
+            return;
+          }
+          
+          let comment = `## 🔍 Scenario Validation Results\n\n`;
+          
+          if (results.invalidScenarios === 0) {
+            comment += `✅ All ${results.totalScenarios} scenarios are valid!\n\n`;
+          } else {
+            comment += `❌ Found ${results.invalidScenarios} invalid scenarios out of ${results.totalScenarios} total.\n\n`;
+          }
+          
+          comment += `| Scenario | Status | Errors | Warnings |\n`;
+          comment += `|----------|---------|---------|----------|\n`;
+          
+          results.summary.forEach(scenario => {
+            const status = scenario.status === 'VALID' ? '✅' : '❌';
+            comment += `| ${scenario.name} | ${status} ${scenario.status} | ${scenario.errorCount} | ${scenario.warningCount} |\n`;
+          });
+          
+          if (results.invalidScenarios > 0) {
+            comment += `\n### ❌ Validation Errors\n\n`;
+            Object.values(results.scenarios).forEach(scenario => {
+              if (!scenario.isValid) {
+                comment += `**${scenario.name}:**\n`;
+                scenario.errors.forEach(error => {
+                  comment += `- ❌ ${error}\n`;
+                });
+                scenario.warnings.forEach(warning => {
+                  comment += `- ⚠️ ${warning}\n`;
+                });
+                comment += `\n`;
+              }
+            });
+          }
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });
