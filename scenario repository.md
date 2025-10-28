@@ -50,31 +50,13 @@ Each scenario's `metadata.json` should follow this structure:
 {
   "id": "reforged-eden-2",
   "name": "Reforged Eden 2",
-  "version": "2.1.4",
+  "version": "b36",
   "description": "Enhanced gameplay with new factions, items, and balance changes",
   "author": "Vermillion",
-  "gameVersion": "1.12.0",
   "lastUpdated": "2025-01-15T10:30:00Z",
-  "tags": ["enhanced", "rebalanced", "multiplayer"],
-  "difficulty": "intermediate",
-  "features": [
-    "New factions",
-    "Rebalanced economy",
-    "Additional traders"
-  ],
-  "requirements": {
-    "minGameVersion": "1.10.0",
-    "dlcRequired": false
-  },
-  "compatibility": {
-    "singlePlayer": true,
-    "multiplayer": true,
-    "dedicatedServer": true
-  },
   "links": {
-    "forum": "https://example.com/forum",
-    "discord": "https://discord.gg/example",
-    "documentation": "https://docs.example.com"
+    "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3143225812",
+    "discord": "https://discord.gg/example"
   }
 }
 ```
@@ -106,19 +88,9 @@ Create a Node.js script (`scripts/generate-registry.js`) that:
       "version": "1.12.0",
       "description": "Default game scenario",
       "author": "Eleon Game Studios",
-      "gameVersion": "1.12.0",
       "lastUpdated": "2025-01-10T12:00:00Z",
-      "tags": ["official", "default"],
-      "difficulty": "beginner",
-      "features": [],
-      "requirements": {
-        "minGameVersion": "1.0.0",
-        "dlcRequired": false
-      },
-      "compatibility": {
-        "singlePlayer": true,
-        "multiplayer": true,
-        "dedicatedServer": true
+      "links": {
+        "forum": "https://empyriononline.com/"
       },
       "files": {
         "metadata": {

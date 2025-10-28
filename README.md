@@ -10,6 +10,7 @@ A centralized repository for Empyrion Galactic Survival (EGS) game scenarios tha
 ### Using the Registry
 
 The main registry file is automatically generated and available at:
+
 ```
 https://cdn.jsdelivr.net/gh/username/egs-scenarios@main/registry.json
 ```
@@ -18,7 +19,9 @@ https://cdn.jsdelivr.net/gh/username/egs-scenarios@main/registry.json
 
 ```javascript
 // Fetch all scenarios
-const response = await fetch('https://cdn.jsdelivr.net/gh/username/egs-scenarios@main/registry.json');
+const response = await fetch(
+  "https://cdn.jsdelivr.net/gh/username/egs-scenarios@main/registry.json"
+);
 const registry = await response.json();
 
 // Get scenario list
@@ -40,9 +43,9 @@ egs-scenarios/
 │   └── validate-scenarios.yml  # Validates scenarios
 ├── scenarios/                  # Scenario data
 │   ├── vanilla/               # Official EGS scenario
-│   ├── reforged-eden-2/       # Enhanced gameplay mod
+│   ├── reforged-eden-2/       # Reforged Eden 2
 │   ├── re1/                   # Reforged Eden 1
-│   └── junkysal/              # Community scenario
+│   └── junkysal/              # Junkyard Salvager
 ├── scripts/                   # Node.js automation scripts
 │   ├── generate-registry.js   # Registry generation logic
 │   ├── validate-scenarios.js  # Validation logic
@@ -90,25 +93,9 @@ Each scenario's `metadata.json` must follow this schema:
   "description": "Detailed description of the scenario",
   "author": "Author Name",
   "gameVersion": "1.12.0",
-  "lastUpdated": "2025-01-15T10:30:00Z",
-  "tags": ["tag1", "tag2"],
-  "difficulty": "beginner|intermediate|advanced|expert",
-  "features": [
-    "Feature description"
-  ],
-  "requirements": {
-    "minGameVersion": "1.10.0",
-    "dlcRequired": false
-  },
-  "compatibility": {
-    "singlePlayer": true,
-    "multiplayer": true,
-    "dedicatedServer": true
-  },
   "links": {
-    "forum": "https://forum-url",
-    "discord": "https://discord-invite",
-    "documentation": "https://docs-url"
+    "scenario": "https://forum-url",
+    "discord": "https://discord-invite"
   }
 }
 ```
@@ -125,18 +112,20 @@ Each scenario's `metadata.json` must follow this schema:
 
 ### Prerequisites
 
-- Node.js 16+ 
+- Node.js 16+
 - npm or yarn
 
 ### Setup
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/username/egs-scenarios.git
 cd egs-scenarios
 ```
 
 2. Install dependencies:
+
 ```bash
 cd scripts
 npm install
@@ -161,6 +150,7 @@ npm test
 ### CLI Options
 
 #### Registry Generation
+
 ```bash
 node scripts/generate-registry.js [options]
 
@@ -171,6 +161,7 @@ Options:
 ```
 
 #### Scenario Validation
+
 ```bash
 node scripts/validate-scenarios.js [options]
 
@@ -188,7 +179,7 @@ Options:
 2. **Create scenario directory**: `scenarios/your-scenario-id/`
 3. **Add required files**:
    - `metadata.json` (see schema above)
-   - `factions.csv` 
+   - `factions.csv`
    - `Localization.csv`
 4. **Add optional files** (recommended):
    - `TraderNPCConfig.json`
@@ -207,6 +198,7 @@ Options:
 ### CSV File Formats
 
 #### factions.csv
+
 ```csv
 Name,Faction,Group,Origin
 Polaris,1,1,Polaris
@@ -214,6 +206,7 @@ Traders,2,2,Traders
 ```
 
 #### Localization.csv
+
 ```csv
 Key,English,German,French
 ItemName,"Item Name","German Name","French Name"
@@ -222,6 +215,7 @@ ItemName,"Item Name","German Name","French Name"
 ### JSON File Examples
 
 #### TraderNPCConfig.json
+
 ```json
 {
   "traders": [
@@ -235,6 +229,7 @@ ItemName,"Item Name","German Name","French Name"
 ```
 
 #### prefabs.json
+
 ```json
 {
   "prefabs": [
@@ -274,8 +269,16 @@ The generated `registry.json` provides:
     "scenario-id": {
       // Scenario metadata
       "files": {
-        "metadata": { "size": 1024, "checksum": "abc123...", "lastModified": "..." },
-        "factions": { "size": 2048, "checksum": "def456...", "lastModified": "..." }
+        "metadata": {
+          "size": 1024,
+          "checksum": "abc123...",
+          "lastModified": "..."
+        },
+        "factions": {
+          "size": 2048,
+          "checksum": "def456...",
+          "lastModified": "..."
+        }
       },
       "hasImage": true,
       "isValid": true,
@@ -292,12 +295,12 @@ The generated `registry.json` provides:
 
 ## 🏷 Available Scenarios
 
-| Scenario | Author | Difficulty | Description |
-|----------|--------|------------|-------------|
-| **Vanilla EGS** | Eleon Game Studios | Beginner | Official game scenario |
-| **Reforged Eden 2** | Vermillion | Intermediate | Enhanced gameplay with new content |
-| **Reforged Eden 1** | Vermillion | Intermediate | Original enhanced scenario |
-| **Junkyard Salvager** | Community | Advanced | Hardcore survival scenario |
+| Scenario              | Author             | Difficulty   | Description                        |
+| --------------------- | ------------------ | ------------ | ---------------------------------- |
+| **Vanilla EGS**       | Eleon Game Studios | Beginner     | Official game scenario             |
+| **Reforged Eden 2**   | Vermillion         | Intermediate | Enhanced gameplay with new content |
+| **Reforged Eden 1**   | Vermillion         | Intermediate | Original enhanced scenario         |
+| **Junkyard Salvager** | Community          | Advanced     | Hardcore survival scenario         |
 
 ## 🚦 Status Indicators
 

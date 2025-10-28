@@ -1,30 +1,11 @@
 {
   "id": "re1",
   "name": "Reforged Eden 1",
-  "version": "1.8.6",
+  "version": "b87",
   "description": "Original Reforged Eden scenario with balanced gameplay and additional content",
-  "author": "Vermillion",
-  "gameVersion": "1.11.5",
+  "author": "Vermillion & ravien_ff",
   "lastUpdated": "2024-12-20T15:45:00Z",
-  "tags": ["balanced", "content-rich", "legacy"],
-  "difficulty": "intermediate",
-  "features": [
-    "Enhanced faction system",
-    "Additional POIs",
-    "Balanced progression",
-    "Extended tech tree"
-  ],
-  "requirements": {
-    "minGameVersion": "1.9.0",
-    "dlcRequired": false
-  },
-  "compatibility": {
-    "singlePlayer": true,
-    "multiplayer": true,
-    "dedicatedServer": true
-  },
   "links": {
-    "forum": "https://empyriononline.com/threads/reforged-eden.54321/",
-    "documentation": "https://docs.reforged-eden.com/v1"
+    "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=2550354956"
   }
 }

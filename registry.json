@@ -1,72 +1,49 @@
 {
   "version": "1.0.0",
-  "generated": "2025-08-29T11:41:52.830Z",
+  "generated": "2025-10-28T07:54:08.419Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/username/egs-scenarios@main/scenarios/",
   "scenarios": {
     "junkysal": {
       "id": "junkysal",
       "name": "Junkyard Salvager",
-      "version": "0.4.6",
-      "description": "Hardcore survival scenario focused on salvaging and resource management",
-      "author": "Community Contributors",
-      "gameVersion": "1.12.0",
+      "version": "0.54",
+      "description": "You are a lone salvager. Trained to repair and restore the wrecked vessels of the galactic junkyard, you scavenge for parts and resources, to build something out of nothing. Unfortunately, you have more enemies than friends. Captured and robbed of what little you have, you are left stranded on an arid planet. No oxygen. No resources. Just you, your A.I., and a suit constructor.",
+      "author": "Teakeycee",
       "lastUpdated": "2025-01-08T09:15:00Z",
-      "tags": [
-        "hardcore",
-        "survival",
-        "community",
-        "challenging"
-      ],
-      "difficulty": "advanced",
-      "features": [
-        "Hardcore resource scarcity",
-        "Salvage-focused gameplay",
-        "Unique progression system",
-        "Community-driven content"
-      ],
-      "requirements": {
-        "minGameVersion": "1.11.0",
-        "dlcRequired": false
-      },
-      "compatibility": {
-        "singlePlayer": true,
-        "multiplayer": true,
-        "dedicatedServer": false
-      },
       "links": {
-        "forum": "https://empyriononline.com/threads/junkyard-salvager.98765/",
-        "discord": "https://discord.gg/junkysal-community"
+        "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379971469",
+        "discord": "https://discord.gg/kWJREUjr2M"
       },
       "files": {
         "metadata": {
-          "size": 853,
-          "checksum": "9b84b34d0ad14795792eb24b90e1d5e9fb2847358f08b6bc4d52f35759015325",
-          "lastModified": "2025-08-29T10:52:06.081Z"
+          "size": 692,
+          "checksum": "a06bf2f12520b6f02fa2880ead387a595c85d2dfb96f02b5a5436df3b6c4edab",
+          "lastModified": "2025-10-28T07:52:31.780Z"
         },
         "factions": {
           "size": 1562,
           "checksum": "64f0138db472c101ae212393ad959b6dbd1f50becc6ac24b5543ae00d4eccd11",
-          "lastModified": "2025-08-29T10:37:53.247Z"
+          "lastModified": "2025-10-28T07:18:40.822Z"
         },
         "localization": {
           "size": 4182804,
           "checksum": "727e8ae03757099c4e83f29646b899550135a56058c9ce68829c8b6e4ca6a77d",
-          "lastModified": "2025-08-29T10:37:53.240Z"
+          "lastModified": "2025-10-28T07:18:40.818Z"
         },
         "traderConfig": {
           "size": 103213,
           "checksum": "b238118248c5d48aad6a033eeb2b1bfc0fdee40166b47bad370b0e533caee14b",
-          "lastModified": "2025-08-29T10:37:53.245Z"
+          "lastModified": "2025-10-28T07:18:40.822Z"
         },
         "prefabs": {
           "size": 1734,
           "checksum": "fd9064608ef7dce2e6c0025790b34c70d1d4347234f174d94f2ce0da7287a997",
-          "lastModified": "2025-08-29T10:37:53.263Z"
+          "lastModified": "2025-10-28T07:18:40.826Z"
         },
         "image": {
           "size": 67248,
           "checksum": "3becf8405dccba7d438359b0dab0f294b4712533589496d8b946b7a80ef13c20",
-          "lastModified": "2025-08-29T10:37:53.250Z"
+          "lastModified": "2025-10-28T07:18:40.822Z"
         }
       },
       "hasImage": true,
@@ -76,66 +53,43 @@
     "re1": {
       "id": "re1",
       "name": "Reforged Eden 1",
-      "version": "1.8.6",
+      "version": "b87",
       "description": "Original Reforged Eden scenario with balanced gameplay and additional content",
-      "author": "Vermillion",
-      "gameVersion": "1.11.5",
+      "author": "Vermillion & ravien_ff",
       "lastUpdated": "2024-12-20T15:45:00Z",
-      "tags": [
-        "balanced",
-        "content-rich",
-        "legacy"
-      ],
-      "difficulty": "intermediate",
-      "features": [
-        "Enhanced faction system",
-        "Additional POIs",
-        "Balanced progression",
-        "Extended tech tree"
-      ],
-      "requirements": {
-        "minGameVersion": "1.9.0",
-        "dlcRequired": false
-      },
-      "compatibility": {
-        "singlePlayer": true,
-        "multiplayer": true,
-        "dedicatedServer": true
-      },
       "links": {
-        "forum": "https://empyriononline.com/threads/reforged-eden.54321/",
-        "documentation": "https://docs.reforged-eden.com/v1"
+        "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=2550354956"
       },
       "files": {
         "metadata": {
-          "size": 803,
-          "checksum": "d8b56802a539b89c1580d1ef5bc90eb00d8f5b654ab7f9cb63931eed4f68415a",
-          "lastModified": "2025-08-29T10:51:55.315Z"
+          "size": 334,
+          "checksum": "c7345eac344a3aa0758ecd66691ce80998ddc896ada9175760aa5ec38edcaf0a",
+          "lastModified": "2025-10-28T07:52:47.248Z"
         },
         "factions": {
           "size": 2383,
           "checksum": "54a11033c57a595f8c88e21952d311ab6e5579ad7b2c2d8e9688546d80902921",
-          "lastModified": "2025-08-29T10:37:53.305Z"
+          "lastModified": "2025-10-28T07:18:40.854Z"
         },
         "localization": {
           "size": 1078586,
           "checksum": "2608e40167b02ea3d68427063f88acad742975494360671c279a145fe1d66d22",
-          "lastModified": "2025-08-29T10:37:53.297Z"
+          "lastModified": "2025-10-28T07:18:40.854Z"
         },
         "traderConfig": {
           "size": 263570,
           "checksum": "bbf1783fa0ef5ae6e93998ae284188d9af6150594fd1e37f7f8e32ec75bb112d",
-          "lastModified": "2025-08-29T10:37:53.302Z"
+          "lastModified": "2025-10-28T07:18:40.854Z"
         },
         "prefabs": {
           "size": 691886,
           "checksum": "efdd2199f0c60fcf9f1238d3de89fcb59cbc29b86d50d026550f697a6b957ed6",
-          "lastModified": "2025-08-29T10:37:53.333Z"
+          "lastModified": "2025-10-28T07:18:40.862Z"
         },
         "image": {
           "size": 26189,
           "checksum": "c47087370554b9c529f88b4ca619fc4ab8e175f59550ef2f5565f6b190ae4445",
-          "lastModified": "2025-08-29T10:37:53.307Z"
+          "lastModified": "2025-10-28T07:18:40.858Z"
         }
       },
       "hasImage": true,
@@ -145,67 +99,43 @@
     "reforged-eden-2": {
       "id": "reforged-eden-2",
       "name": "Reforged Eden 2",
-      "version": "2.1.4",
+      "version": "b36",
       "description": "Enhanced gameplay with new factions, items, and balance changes",
       "author": "Vermillion",
-      "gameVersion": "1.12.0",
       "lastUpdated": "2025-01-15T10:30:00Z",
-      "tags": [
-        "enhanced",
-        "rebalanced",
-        "multiplayer"
-      ],
-      "difficulty": "intermediate",
-      "features": [
-        "New factions",
-        "Rebalanced economy",
-        "Additional traders",
-        "Enhanced crafting system"
-      ],
-      "requirements": {
-        "minGameVersion": "1.10.0",
-        "dlcRequired": false
-      },
-      "compatibility": {
-        "singlePlayer": true,
-        "multiplayer": true,
-        "dedicatedServer": true
-      },
       "links": {
-        "forum": "https://empyriononline.com/threads/reforged-eden-2.12345/",
-        "discord": "https://discord.gg/reforged-eden",
-        "documentation": "https://docs.reforged-eden.com"
+        "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3143225812"
       },
       "files": {
         "metadata": {
-          "size": 851,
-          "checksum": "37732a1a1f5877a3ed395656da5a529a2a7879d5bd684e17c9432e33d8165f31",
-          "lastModified": "2025-08-29T10:51:45.212Z"
+          "size": 332,
+          "checksum": "4739fabfe10f2bd87ae74741d9d40ce1c0546e69778558796985568030a57aa2",
+          "lastModified": "2025-10-28T07:53:20.437Z"
         },
         "factions": {
           "size": 2008,
           "checksum": "4966c6e16e4e3ec7096dfb8ac4c013bfb1ec21fc59910ee03f8ef434b00ea11f",
-          "lastModified": "2025-08-29T10:37:53.385Z"
+          "lastModified": "2025-10-28T07:18:40.878Z"
         },
         "localization": {
           "size": 1309199,
           "checksum": "6ab27eb319f551ea778c59b6ae1d56f5322ac1f225d61342659d427d7dcafeec",
-          "lastModified": "2025-08-29T10:37:53.378Z"
+          "lastModified": "2025-10-28T07:18:40.878Z"
         },
         "traderConfig": {
           "size": 289273,
           "checksum": "7b01c2a38b4eb7566a027374a6cc9fb6d5538edd674c9adee5bde1ed3f69c1bc",
-          "lastModified": "2025-08-29T10:37:53.382Z"
+          "lastModified": "2025-10-28T07:18:40.878Z"
         },
         "prefabs": {
           "size": 466376,
           "checksum": "f76b6cc84574cb1389adbcd73aa4819c7b1506b38f104a4fd6e42460e164292f",
-          "lastModified": "2025-08-29T10:37:53.413Z"
+          "lastModified": "2025-10-28T07:18:40.886Z"
         },
         "image": {
           "size": 14848,
           "checksum": "a1bda4f217da77979301939dd0e5b20033920d8e26cc2f1960fd1850e3689474",
-          "lastModified": "2025-08-29T10:37:53.388Z"
+          "lastModified": "2025-10-28T07:18:40.878Z"
         }
       },
       "hasImage": true,
@@ -218,62 +148,40 @@
       "version": "1.12.0",
       "description": "Default Empyrion Galactic Survival game scenario with official content",
       "author": "Eleon Game Studios",
-      "gameVersion": "1.12.0",
       "lastUpdated": "2025-01-10T12:00:00Z",
-      "tags": [
-        "official",
-        "default",
-        "beginner"
-      ],
-      "difficulty": "beginner",
-      "features": [
-        "Official game balance",
-        "Standard faction system",
-        "Core gameplay mechanics"
-      ],
-      "requirements": {
-        "minGameVersion": "1.0.0",
-        "dlcRequired": false
-      },
-      "compatibility": {
-        "singlePlayer": true,
-        "multiplayer": true,
-        "dedicatedServer": true
-      },
       "links": {
-        "forum": "https://empyriononline.com/",
-        "documentation": "https://empyriononline.com/wiki/"
+        "forum": "https://empyriononline.com/"
       },
       "files": {
         "metadata": {
-          "size": 752,
-          "checksum": "762f6138edad2bd4af92870b188691efe3a90819917bfef3171cbb77602efa5a",
-          "lastModified": "2025-08-29T10:51:29.570Z"
+          "size": 297,
+          "checksum": "e7d71f7b65c8c9554d8a366c9595fab98a325bf14e2f1b3d9e44909b30d338f2",
+          "lastModified": "2025-10-28T07:53:31.981Z"
         },
         "factions": {
           "size": 1506,
           "checksum": "da56cc827018fdb0c76291f89b7930fbd8fdb3cfce06d71d15ace950b39e916c",
-          "lastModified": "2025-08-29T10:37:53.458Z"
+          "lastModified": "2025-10-28T07:18:40.902Z"
         },
         "localization": {
           "size": 4182804,
           "checksum": "727e8ae03757099c4e83f29646b899550135a56058c9ce68829c8b6e4ca6a77d",
-          "lastModified": "2025-08-29T10:37:53.451Z"
+          "lastModified": "2025-10-28T07:18:40.902Z"
         },
         "traderConfig": {
           "size": 93188,
           "checksum": "b68275556d8ecc3f7ceb94573a69c4c8a3ec573589d0d3bc7e9224f4be18ffc8",
-          "lastModified": "2025-08-29T10:37:53.456Z"
+          "lastModified": "2025-10-28T07:18:40.902Z"
         },
         "prefabs": {
           "size": 403353,
           "checksum": "baee0f5145695f703fb6d63e74a37c961cf0ccc478a40eaddfe96beff5b4e459",
-          "lastModified": "2025-08-29T10:37:53.479Z"
+          "lastModified": "2025-10-28T07:18:40.906Z"
         },
         "image": {
           "size": 21210,
           "checksum": "dc6ed23230ab2194f782b69ddc0ecc6d24f115c1a72a6c3374b5e77cc893ecf5",
-          "lastModified": "2025-08-29T10:37:53.461Z"
+          "lastModified": "2025-10-28T07:18:40.902Z"
         }
       },
       "hasImage": true,
