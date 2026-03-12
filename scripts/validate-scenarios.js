@@ -332,7 +332,7 @@ class ScenarioValidator {
     return validation;
   }
 
-  async validateScenario(scenarioName) {
+  async validateScenarioVersions(scenarioName) {
     const scenarioDir = path.join(this.scenariosDir, scenarioName);
 
     if (!(await fs.pathExists(scenarioDir))) {
@@ -341,19 +341,51 @@ class ScenarioValidator {
         isValid: false,
         errors: [`Scenario directory not found: ${scenarioName}`],
         warnings: [],
+        versions: {}
       };
     }
 
-    this.log(`Validating scenario: ${scenarioName}`);
+    const versionEntries = await fs.readdir(scenarioDir, { withFileTypes: true });
+    const versions = versionEntries
+      .filter(v => v.isDirectory())
+      .map(v => v.name);
 
-    const validation = await this.validateScenarioFiles(scenarioDir);
+    if (versions.length === 0) {
+      return {
+        name: scenarioName,
+        isValid: false,
+        errors: [`No version folders found in scenario: ${scenarioName}`],
+        warnings: [],
+        versions: {}
+      };
+    }
+
+    const versionResults = {};
+    let scenarioValid = true;
+
+    for (const versionName of versions) {
+      this.log(`Validating scenario version: ${scenarioName}/${versionName}`);
+      const versionDir = path.join(scenarioDir, versionName);
+      const validation = await this.validateScenarioFiles(versionDir);
+
+      versionResults[versionName] = {
+        isValid: validation.isValid,
+        errors: validation.errors,
+        warnings: validation.warnings,
+        fileResults: validation.fileResults
+      };
+
+      if (!validation.isValid) {
+        scenarioValid = false;
+      }
+    }
 
     return {
       name: scenarioName,
-      isValid: validation.isValid,
-      errors: validation.errors,
-      warnings: validation.warnings,
-      fileResults: validation.fileResults,
+      isValid: scenarioValid,
+      errors: [],
+      warnings: [],
+      versions: versionResults
     };
   }
 
@@ -372,34 +404,55 @@ class ScenarioValidator {
   }
 
   async validateAll() {
-    let scenarios = [];
+    let scenarioNames = [];
 
     if (this.options.scenario) {
-      scenarios = [this.options.scenario];
+      scenarioNames = [this.options.scenario];
     } else {
-      scenarios = await this.discoverScenarios();
+      scenarioNames = await this.discoverScenarios();
     }
 
-    this.results.totalScenarios = scenarios.length;
+    this.results.totalScenarios = scenarioNames.length;
+    let totalVersions = 0;
+    let validVersions = 0;
+    let invalidVersions = 0;
 
-    for (const scenarioName of scenarios) {
-      const result = await this.validateScenario(scenarioName);
+    for (const scenarioName of scenarioNames) {
+      const result = await this.validateScenarioVersions(scenarioName);
       this.results.scenarios[scenarioName] = result;
+
+      const versions = Object.keys(result.versions);
+      totalVersions += versions.length;
+
+      for (const versionName of versions) {
+        const versionResult = result.versions[versionName];
+        if (versionResult.isValid) {
+          validVersions++;
+        } else {
+          invalidVersions++;
+        }
+
+        // Add to summary
+        this.results.summary.push({
+          name: `${scenarioName}/${versionName}`,
+          status: versionResult.isValid ? "VALID" : "INVALID",
+          errorCount: versionResult.errors.length,
+          warningCount: versionResult.warnings.length,
+        });
+      }
 
       if (result.isValid) {
         this.results.validScenarios++;
       } else {
         this.results.invalidScenarios++;
       }
-
-      // Add to summary
-      this.results.summary.push({
-        name: scenarioName,
-        status: result.isValid ? "VALID" : "INVALID",
-        errorCount: result.errors.length,
-        warningCount: result.warnings.length,
-      });
     }
+
+    this.results.stats = {
+      totalVersions,
+      validVersions,
+      invalidVersions
+    };
 
     return this.results;
   }
@@ -419,7 +472,8 @@ class ScenarioValidator {
       );
 
       if (this.verbose) {
-        const details = this.results.scenarios[scenario.name];
+        const [scenarioName, versionName] = scenario.name.split('/');
+        const details = this.results.scenarios[scenarioName].versions[versionName];
         if (details.errors.length > 0) {
           details.errors.forEach((error) => console.log(`   ERROR: ${error}`));
         }
@@ -432,15 +486,16 @@ class ScenarioValidator {
     });
 
     console.log(`\nSummary:`);
-    console.log(`- Total scenarios: ${this.results.totalScenarios}`);
-    console.log(`- Valid scenarios: ${this.results.validScenarios}`);
-    console.log(`- Invalid scenarios: ${this.results.invalidScenarios}`);
+    console.log(`- Total Scenarios: ${this.results.totalScenarios}`);
+    console.log(`- Total Versions: ${this.results.stats.totalVersions}`);
+    console.log(`- Valid Versions: ${this.results.stats.validVersions}`);
+    console.log(`- Invalid Versions: ${this.results.stats.invalidVersions}`);
 
-    if (this.results.invalidScenarios > 0) {
+    if (this.results.stats.invalidVersions > 0) {
       console.log("\n❌ Validation failed. Fix errors above.");
       process.exit(1);
     } else {
-      console.log("\n✅ All scenarios are valid!");
+      console.log("\n✅ All scenario versions are valid!");
     }
   }
 

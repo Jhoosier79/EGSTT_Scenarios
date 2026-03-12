@@ -59,17 +59,17 @@ class RegistryGenerator {
     }
   }
 
-  async validateScenarioFiles(scenarioDir) {
+  async validateScenarioFiles(versionDir) {
     const requiredFiles = ['metadata.json', 'factions.csv', 'Localization.csv'];
     const optionalFiles = ['TraderNPCConfig.json', 'prefabs.json', 'image.png'];
-    
+
     const files = {};
     const errors = [];
     let isValid = true;
 
     // Check required files
     for (const fileName of requiredFiles) {
-      const filePath = path.join(scenarioDir, fileName);
+      const filePath = path.join(versionDir, fileName);
       if (await fs.pathExists(filePath)) {
         files[this.getFileKey(fileName)] = await this.getFileStats(filePath);
         this.log(`Found required file: ${fileName}`);
@@ -81,7 +81,7 @@ class RegistryGenerator {
 
     // Check optional files
     for (const fileName of optionalFiles) {
-      const filePath = path.join(scenarioDir, fileName);
+      const filePath = path.join(versionDir, fileName);
       if (await fs.pathExists(filePath)) {
         files[this.getFileKey(fileName)] = await this.getFileStats(filePath);
         this.log(`Found optional file: ${fileName}`);
@@ -89,7 +89,7 @@ class RegistryGenerator {
     }
 
     // Check for image
-    const hasImage = await fs.pathExists(path.join(scenarioDir, 'image.png'));
+    const hasImage = await fs.pathExists(path.join(versionDir, 'image.png'));
 
     return { files, isValid, validationErrors: errors, hasImage };
   }
@@ -106,11 +106,11 @@ class RegistryGenerator {
     return keyMap[fileName] || fileName.replace(/\.[^/.]+$/, '');
   }
 
-  async loadScenarioMetadata(scenarioDir) {
-    const metadataPath = path.join(scenarioDir, 'metadata.json');
+  async loadScenarioMetadata(versionDir) {
+    const metadataPath = path.join(versionDir, 'metadata.json');
     try {
       const data = await fs.readJSON(metadataPath);
-      this.log(`Loaded metadata for scenario: ${data.id || path.basename(scenarioDir)}`);
+      this.log(`Loaded metadata for version at: ${path.basename(versionDir)}`);
       return data;
     } catch (error) {
       this.error(`Failed to load metadata from ${metadataPath}: ${error.message}`);
@@ -118,25 +118,24 @@ class RegistryGenerator {
     }
   }
 
-  async processScenario(scenarioName) {
-    const scenarioDir = path.join(this.scenariosDir, scenarioName);
-    
-    if (!await fs.pathExists(scenarioDir)) {
-      this.error(`Scenario directory not found: ${scenarioDir}`);
-      return null;
-    }
+  async processVersion(scenarioName, versionName) {
+    const versionDir = path.join(this.scenariosDir, scenarioName, versionName);
 
-    this.log(`Processing scenario: ${scenarioName}`);
-    
-    const metadata = await this.loadScenarioMetadata(scenarioDir);
+    this.log(`Processing version: ${scenarioName}/${versionName}`);
+
+    const metadata = await this.loadScenarioMetadata(versionDir);
     if (!metadata) {
       return null;
     }
 
-    const validation = await this.validateScenarioFiles(scenarioDir);
-    
+    const validation = await this.validateScenarioFiles(versionDir);
+
+    // Construct the path for files relative to scenarios/
+    const relativeDir = `${scenarioName}/${versionName}/`;
+
     return {
       ...metadata,
+      path: relativeDir,
       files: validation.files,
       hasImage: validation.hasImage,
       isValid: validation.isValid,
@@ -147,52 +146,93 @@ class RegistryGenerator {
   async discoverScenarios() {
     try {
       const entries = await fs.readdir(this.scenariosDir, { withFileTypes: true });
-      return entries
-        .filter(entry => entry.isDirectory())
-        .map(entry => entry.name);
+      const scenarioMap = {};
+
+      for (const entry of entries) {
+        if (entry.isDirectory()) {
+          const scenarioName = entry.name;
+          const scenarioDir = path.join(this.scenariosDir, scenarioName);
+          const versionEntries = await fs.readdir(scenarioDir, { withFileTypes: true });
+
+          const versions = versionEntries
+            .filter(v => v.isDirectory())
+            .map(v => v.name);
+
+          if (versions.length > 0) {
+            scenarioMap[scenarioName] = versions;
+          }
+        }
+      }
+      return scenarioMap;
     } catch (error) {
       this.error(`Failed to read scenarios directory: ${error.message}`);
-      return [];
+      return {};
     }
   }
 
   async generateRegistry() {
     this.log('Starting registry generation...');
-    
-    const scenarioNames = await this.discoverScenarios();
-    this.log(`Discovered ${scenarioNames.length} scenarios: ${scenarioNames.join(', ')}`);
-    
+
+    const scenarioMap = await this.discoverScenarios();
+    const scenarioNames = Object.keys(scenarioMap);
+    this.log(`Discovered ${scenarioNames.length} scenarios`);
+
     const scenarios = {};
+    let totalVersions = 0;
     let validCount = 0;
     let invalidCount = 0;
 
     for (const scenarioName of scenarioNames) {
-      const scenario = await this.processScenario(scenarioName);
-      if (scenario) {
-        scenarios[scenario.id || scenarioName] = scenario;
-        if (scenario.isValid) {
-          validCount++;
-        } else {
-          invalidCount++;
+      const versions = scenarioMap[scenarioName];
+      const processedVersions = {};
+      let scenarioMetadata = null;
+
+      for (const versionName of versions) {
+        const versionData = await this.processVersion(scenarioName, versionName);
+        if (versionData) {
+          processedVersions[versionName] = versionData;
+          totalVersions++;
+
+          if (versionData.isValid) {
+            validCount++;
+          } else {
+            invalidCount++;
+          }
+
+          // Use the latest or first valid metadata as the scenario-level metadata
+          if (!scenarioMetadata || versionData.isValid) {
+            scenarioMetadata = {
+              id: versionData.id,
+              name: versionData.name,
+              description: versionData.description,
+              author: versionData.author
+            };
+          }
         }
-      } else {
-        invalidCount++;
+      }
+
+      if (Object.keys(processedVersions).length > 0) {
+        scenarios[scenarioName] = {
+          ...scenarioMetadata,
+          versions: processedVersions
+        };
       }
     }
 
     const registry = {
-      version: '1.0.0',
+      version: '2.0.0', // Incremented version for schema change
       generated: new Date().toISOString(),
       baseUrl: this.baseUrl,
       scenarios,
       stats: {
         totalScenarios: scenarioNames.length,
-        validScenarios: validCount,
-        invalidScenarios: invalidCount
+        totalVersions,
+        validVersions: validCount,
+        invalidVersions: invalidCount
       }
     };
 
-    this.log(`Generated registry with ${validCount} valid and ${invalidCount} invalid scenarios`);
+    this.log(`Generated registry with ${validCount} valid and ${invalidCount} invalid versions across ${scenarioNames.length} scenarios`);
     return registry;
   }
 
@@ -200,9 +240,10 @@ class RegistryGenerator {
     try {
       await fs.writeJSON(this.outputPath, registry, { spaces: 2 });
       console.log(`Registry generated successfully: ${this.outputPath}`);
-      console.log(`Total scenarios: ${registry.stats.totalScenarios}`);
-      console.log(`Valid scenarios: ${registry.stats.validScenarios}`);
-      console.log(`Invalid scenarios: ${registry.stats.invalidScenarios}`);
+      console.log(`Total Scenarios: ${registry.stats.totalScenarios}`);
+      console.log(`Total Versions: ${registry.stats.totalVersions}`);
+      console.log(`Valid Versions: ${registry.stats.validVersions}`);
+      console.log(`Invalid Versions: ${registry.stats.invalidVersions}`);
     } catch (error) {
       this.error(`Failed to save registry: ${error.message}`);
       process.exit(1);
