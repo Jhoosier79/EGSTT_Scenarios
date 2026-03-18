@@ -1,0 +1,7001 @@
+[
+  {
+    "dialog_name": "_Globals"
+  },
+  {
+    "dialog_name": "All_Debug_Help_Init"
+  },
+  {
+    "dialog_name": "DF_Campaign_Helper"
+  },
+  {
+    "dialog_name": "DF_Campaign_Debug"
+  },
+  {
+    "dialog_name": "DF_ItemMemory_Past"
+  },
+  {
+    "dialog_name": "DF_ItemMemory_Present"
+  },
+  {
+    "dialog_name": "DF_FuelHelper"
+  },
+  {
+    "dialog_name": "DF_FactionHelper"
+  },
+  {
+    "dialog_name": "DF_FactionUCHHelper"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Nova_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Nova_Remove"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Aratos_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Aratos_Remove"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_AratosSystem_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_AratosSystem_Remove"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Forra_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Forra_Remove"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_RanoSector_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_RanoSector_Remove"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Erado_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Erado_Remove"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_UtaSector_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_UtaSector_Remove"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_Xaros_Add"
+  },
+  {
+    "dialog_name": "DF_BookmarkHelper_XarosSector_Remove"
+  },
+  {
+    "dialog_name": "DF_WarpDriveDamaged"
+  },
+  {
+    "dialog_name": "DF_TalonStoryHelper"
+  },
+  {
+    "dialog_name": "DF_PolarisStoryHelper"
+  },
+  {
+    "dialog_name": "DF_ZiraxStoryHelper"
+  },
+  {
+    "dialog_name": "DF_ObinskiBossStoryHelper"
+  },
+  {
+    "dialog_name": "DF_TalonLiberationEnd_Init"
+  },
+  {
+    "dialog_name": "DF_PolarisLiberationEnd_Init"
+  },
+  {
+    "dialog_name": "DF_ZiraxLiberationEnd_Init"
+  },
+  {
+    "dialog_name": "DF_Lilly_Init"
+  },
+  {
+    "dialog_name": "DF_Lilly_Conversation"
+  },
+  {
+    "dialog_name": "DF_Lilly_Questions"
+  },
+  {
+    "dialog_name": "DF_Lilly_Doing"
+  },
+  {
+    "dialog_name": "DF_Lilly_Nova"
+  },
+  {
+    "dialog_name": "DF_Lilly_Obinski"
+  },
+  {
+    "dialog_name": "DF_Lilly_Thanks"
+  },
+  {
+    "dialog_name": "DF_LillyEnd_Init"
+  },
+  {
+    "dialog_name": "DF_LillyEnd_Decoy"
+  },
+  {
+    "dialog_name": "DF_LillyEnd_AfterObinski"
+  },
+  {
+    "dialog_name": "DF_LillySaved_Init"
+  },
+  {
+    "dialog_name": "DF_Vanguard_Init"
+  },
+  {
+    "dialog_name": "DF_Vanguard_Controls"
+  },
+  {
+    "dialog_name": "DF_VanguardPast_Init"
+  },
+  {
+    "dialog_name": "DF_VanguardPast_Controls"
+  },
+  {
+    "dialog_name": "DF_VanguardDoor_Init"
+  },
+  {
+    "dialog_name": "DF_VanguardTerminalPast_Init"
+  },
+  {
+    "dialog_name": "DF_VanguardTerminal_Init"
+  },
+  {
+    "dialog_name": "DF_VanguardTerminal_SelfDestruction"
+  },
+  {
+    "dialog_name": "DF_VanguardTerminal_SelfDestruction_MP"
+  },
+  {
+    "dialog_name": "DF_LandingPlatform_Init"
+  },
+  {
+    "dialog_name": "DF_LandingPlatform_Denied"
+  },
+  {
+    "dialog_name": "DF_LandingPlatform_Status"
+  },
+  {
+    "dialog_name": "DF_LandingPlatform_Maintenance"
+  },
+  {
+    "dialog_name": "DF_ResearchLab_Init"
+  },
+  {
+    "dialog_name": "DF_ResearchLab_List"
+  },
+  {
+    "dialog_name": "DF_ResearchLab_SOS"
+  },
+  {
+    "dialog_name": "DF_ResearchLab_Download"
+  },
+  {
+    "dialog_name": "DF_WarpDrive_Init"
+  },
+  {
+    "dialog_name": "DF_WarpDrive_Functional"
+  },
+  {
+    "dialog_name": "DF_WarpDrive_Damaged"
+  },
+  {
+    "dialog_name": "DF_WarpDrive_Instructions"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Init"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Translation"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Report"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_StatusWait"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_StatusGo"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_StatusComponents"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Components"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_StatusComplete"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_SternWorry"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_SternWorry1"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_ComponentsDelivered"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_StargateToken"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_FAQ1"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1_Status"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1_WarpDrive"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1_Status2"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1_StatusEnd"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1_Complete"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1_Talk"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member1_Talk2"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member2"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member2_Success"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member2_Status"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member3"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member3_Success"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member3_Repair"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member3_Repaired"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member3_Status"
+  },
+  {
+    "dialog_name": "DF_ResearchHQ_Member3_Status2"
+  },
+  {
+    "dialog_name": "DF_Polaris_Init"
+  },
+  {
+    "dialog_name": "DF_Polaris_Help"
+  },
+  {
+    "dialog_name": "DF_Polaris_Task"
+  },
+  {
+    "dialog_name": "DF_Polaris_Status"
+  },
+  {
+    "dialog_name": "DF_Polaris_Done"
+  },
+  {
+    "dialog_name": "DF_Polaris_Completed"
+  },
+  {
+    "dialog_name": "DF_Talon_Init"
+  },
+  {
+    "dialog_name": "DF_Talon_Help"
+  },
+  {
+    "dialog_name": "DF_Talon_What"
+  },
+  {
+    "dialog_name": "DF_Talon_Ongoing"
+  },
+  {
+    "dialog_name": "DF_Talon_Completed"
+  },
+  {
+    "dialog_name": "DF_Talon_TKor"
+  },
+  {
+    "dialog_name": "DF_Talon_Uta_Init"
+  },
+  {
+    "dialog_name": "DF_Talon_Uta_What"
+  },
+  {
+    "dialog_name": "DF_Talon_Uta_Trader"
+  },
+  {
+    "dialog_name": "DF_Talon_Uta_Mistake"
+  },
+  {
+    "dialog_name": "DF_Zirax_Init"
+  },
+  {
+    "dialog_name": "DF_Zirax_What"
+  },
+  {
+    "dialog_name": "DF_Zirax_Worthy"
+  },
+  {
+    "dialog_name": "DF_Zirax_Ongoing"
+  },
+  {
+    "dialog_name": "DF_Zirax_Complete"
+  },
+  {
+    "dialog_name": "DF_Zirax_Done"
+  },
+  {
+    "dialog_name": "DF_Empyriopedia_DLC_Init"
+  },
+  {
+    "dialog_name": "Research_DF_Init"
+  },
+  {
+    "dialog_name": "Research_DF_ResearchProgress"
+  },
+  {
+    "dialog_name": "Research_DF_StartResearch"
+  },
+  {
+    "dialog_name": "Research_DF_Group_Handheld"
+  },
+  {
+    "dialog_name": "Research_DF_Group_BuildingBlocks"
+  },
+  {
+    "dialog_name": "Research_DF_Group_BACV"
+  },
+  {
+    "dialog_name": "Research_DF_Group_SVHV"
+  },
+  {
+    "dialog_name": "Research_DF_Debug"
+  },
+  {
+    "dialog_name": "Research_DF_ResearchComplete"
+  },
+  {
+    "dialog_name": "Research_DF_AddRP"
+  },
+  {
+    "dialog_name": "Research_DF_AddRP_MaxReached"
+  },
+  {
+    "dialog_name": "Research_DF_LackOfRP"
+  },
+  {
+    "dialog_name": "Research_DF_AddRP_ResearchDFData_Loop"
+  },
+  {
+    "dialog_name": "Research_DF_AddRP_SymelitOre_Loop"
+  },
+  {
+    "dialog_name": "Research_DF_AddRP_SymelitIngot_Loop"
+  },
+  {
+    "dialog_name": "Research_DF_AddRP_SymelitComponent_Loop"
+  },
+  {
+    "dialog_name": "Research_DF_AddRP_ToManyItems"
+  },
+  {
+    "dialog_name": "Trader_DialogueSwitch_Start"
+  },
+  {
+    "dialog_name": "GS_Ashon_CVConsole_Init"
+  },
+  {
+    "dialog_name": "GS_Ashon_CVConsole_SensorLog_Init"
+  },
+  {
+    "dialog_name": "GS_Ashon_CVConsole_SensorLog_TSO"
+  },
+  {
+    "dialog_name": "GS_Ashon_CVConsole_SensorLog_Planets"
+  },
+  {
+    "dialog_name": "GS_Ashon_CVConsole_CargoList"
+  },
+  {
+    "dialog_name": "GS_Ashon_CVConsole_IDADiagnosis"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Init"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_FirstVisit"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Not"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Returning"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_AfterMission"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Questions_Init"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Questions_UCHLogo"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Questions_HighAlert"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Questions_SpareParts"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Questions_Supplies"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Questions_Pentaxid"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_Questions_WarpDrive"
+  },
+  {
+    "dialog_name": "GS_Ashon_TSO_Welcome_QuestionsEnd"
+  },
+  {
+    "dialog_name": "GS_Ashon_Planet_Shelter_NtyReport_1"
+  },
+  {
+    "dialog_name": "Trader_DialogueSwitch_Talk"
+  },
+  {
+    "dialog_name": "Trader_DialogueSwitch_Trade"
+  },
+  {
+    "dialog_name": "Trader_DialogueSwitch_Present"
+  },
+  {
+    "dialog_name": "TC_Start"
+  },
+  {
+    "dialog_name": "TC_CameBack"
+  },
+  {
+    "dialog_name": "TC_TalkingOk"
+  },
+  {
+    "dialog_name": "TC_RepuBad"
+  },
+  {
+    "dialog_name": "TC_HasHolyStatus"
+  },
+  {
+    "dialog_name": "TC_DefaultEntry"
+  },
+  {
+    "dialog_name": "TC_DefaultEntryCont"
+  },
+  {
+    "dialog_name": "TC_GiveHolyStatue"
+  },
+  {
+    "dialog_name": "TC_CheckFood"
+  },
+  {
+    "dialog_name": "TC_GiveFood"
+  },
+  {
+    "dialog_name": "TC_TooMuchFood"
+  },
+  {
+    "dialog_name": "TC_TooMuchFood2"
+  },
+  {
+    "dialog_name": "TC_AskStoryAboutPeople"
+  },
+  {
+    "dialog_name": "BJ_Start"
+  },
+  {
+    "dialog_name": "BJ_Cooldown_Won"
+  },
+  {
+    "dialog_name": "BJ_Cooldown_Won_Clear"
+  },
+  {
+    "dialog_name": "BJ_Cooldown_Lost"
+  },
+  {
+    "dialog_name": "BJ_Cooldown_Lost_Clear"
+  },
+  {
+    "dialog_name": "BJ_AskBet"
+  },
+  {
+    "dialog_name": "BJ_Statistics"
+  },
+  {
+    "dialog_name": "BJ_Rules"
+  },
+  {
+    "dialog_name": "BJ_RemoveCoins"
+  },
+  {
+    "dialog_name": "BJ_NoMoney"
+  },
+  {
+    "dialog_name": "BJ_StartGame"
+  },
+  {
+    "dialog_name": "BJ_AskCard"
+  },
+  {
+    "dialog_name": "BJ_NewCard"
+  },
+  {
+    "dialog_name": "BJ_CheckPlayerLost"
+  },
+  {
+    "dialog_name": "BJ_DealerTakesFirstCard"
+  },
+  {
+    "dialog_name": "BJ_DealerTakesAnotherCard"
+  },
+  {
+    "dialog_name": "BJ_PlayerWins"
+  },
+  {
+    "dialog_name": "BJ_DealerWins"
+  },
+  {
+    "dialog_name": "BJ_AskForNewGame"
+  },
+  {
+    "dialog_name": "BJ_Bye"
+  },
+  {
+    "dialog_name": "DS_SurveyStation"
+  },
+  {
+    "dialog_name": "DS_SurveyStation2"
+  },
+  {
+    "dialog_name": "DR_HeidelbergAI"
+  },
+  {
+    "dialog_name": "RP_Tut_1_Intro"
+  },
+  {
+    "dialog_name": "RP_Tut_1_EmergencyPod"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_Start"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_Start_decline"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_Start_End"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_1"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_2"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_3"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_4"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_5"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_6"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_7"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_8"
+  },
+  {
+    "dialog_name": "SM_StartingTheJourney_9"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_HBConsole"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_HBConsole1"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_HBConsole2"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_HBConsole3"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_Teleport_Station"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_Teleport_Station1"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_Teleport_Station2"
+  },
+  {
+    "dialog_name": "SM_Human_Remains_Teleport_Station3"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_TitanAccessConsole_1_Start"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_TitanAccessConsole_1_Init"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_TitanAccessConsole_1_Init2"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_TitanAccessConsole_1_Return"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Waverider1"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Waverider2"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Waverider2_save"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Waverider3"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Waverider4"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Waverider5"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_OverrideCode_1"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_OverrideCode_2"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment1_Init"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment1_HiddenFile"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment1_Complete"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment1_Play"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment1_Play_save"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment2_Init"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment2_Complete"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment2_HiddenFile"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment2_Play"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment2_Play_save"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment3_Init"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment3_Complete"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment3_HiddenFile"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment3_Play"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Fragment3_Play_save"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_FragmentMessage_Init"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_FragmentMessage_Playfile"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_FragmentMessage_Playfile_save"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_FragmentMessage_End"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_Init"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_Start"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_1"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_2"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_3"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_4"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_5"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_5_save"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_6"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_7"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_1"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_2"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_3"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_QuestionHub_Intro"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_QuestionHub_Start"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_Polaris"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_Arkenian"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_Zirax"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_Tash"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_4"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_5a"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Chief_6"
+  },
+  {
+    "dialog_name": "SM_TotP_Tower_1"
+  },
+  {
+    "dialog_name": "SM_TotP_Tower_2"
+  },
+  {
+    "dialog_name": "SM_TotP_Prisoner_Talk_1"
+  },
+  {
+    "dialog_name": "SM_TotP_Prisoner_Talk_2"
+  },
+  {
+    "dialog_name": "SM_TotP_Prisoner_Talk_3"
+  },
+  {
+    "dialog_name": "SM_TotP_Prisoner_Talk_4"
+  },
+  {
+    "dialog_name": "SM_TotP_Finale_Talk_1"
+  },
+  {
+    "dialog_name": "SM_TotP_Finale_Talk_1b"
+  },
+  {
+    "dialog_name": "SM_TotP_Finale_Talk_2"
+  },
+  {
+    "dialog_name": "SM_TotP_Finale_Talk_3"
+  },
+  {
+    "dialog_name": "SM_TotP_Finale_Talk_4"
+  },
+  {
+    "dialog_name": "SM_AR_Contact"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Briefing"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_Position"
+  },
+  {
+    "dialog_name": "SM_AR_ControlStation_Init"
+  },
+  {
+    "dialog_name": "SM_AR_ControlStation_1"
+  },
+  {
+    "dialog_name": "SM_AR_ControlStation_2"
+  },
+  {
+    "dialog_name": "SM_AR_ControlStation_3"
+  },
+  {
+    "dialog_name": "SM_AR_ControlStation_4"
+  },
+  {
+    "dialog_name": "SM_AR_ControlStation_5"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_1"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_2"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_3"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_4"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_5"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_6"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_7"
+  },
+  {
+    "dialog_name": "SM_AR_Contact_Ilmarinen_AI_End"
+  },
+  {
+    "dialog_name": "SM_AR_Debriefing_1"
+  },
+  {
+    "dialog_name": "SM_AR_Debriefing_2"
+  },
+  {
+    "dialog_name": "SM_AR_Debriefing_3"
+  },
+  {
+    "dialog_name": "SM_TOP_Yilk_1"
+  },
+  {
+    "dialog_name": "SM_TOP_Yilk_2"
+  },
+  {
+    "dialog_name": "SM_TOP_Yilk_3"
+  },
+  {
+    "dialog_name": "SM_TOP_Yilk_4"
+  },
+  {
+    "dialog_name": "SM_TOP_Yilk_4b"
+  },
+  {
+    "dialog_name": "SM_TOP_Yilk_5"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_1"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_2"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_3"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_Returned_Recipe_1"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_Returned_Recipe_2"
+  },
+  {
+    "dialog_name": "SM_TOP_Urfk_1"
+  },
+  {
+    "dialog_name": "SM_TOP_Urfk_2"
+  },
+  {
+    "dialog_name": "SM_TOP_Urfk_3"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateCommander"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateNoStory"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateCommanderStart"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateBuyRound"
+  },
+  {
+    "dialog_name": "SM_TOP_Smuggler"
+  },
+  {
+    "dialog_name": "SM_TOP_ZiraxWeaponry"
+  },
+  {
+    "dialog_name": "SM_TOP_Artifacts"
+  },
+  {
+    "dialog_name": "SM_TOP_SecretRecipes"
+  },
+  {
+    "dialog_name": "SM_TOP_TOPRaid"
+  },
+  {
+    "dialog_name": "SM_TOP_PiratesThreaten"
+  },
+  {
+    "dialog_name": "SM_TOP_PiratesThreatenEnd"
+  },
+  {
+    "dialog_name": "SM_TOP_PiratesPraise"
+  },
+  {
+    "dialog_name": "SM_TOP_PiratesTopRaidClient"
+  },
+  {
+    "dialog_name": "SM_TOP_PiratesAskForRecipe"
+  },
+  {
+    "dialog_name": "SM_TOP_PiratesAskForPrice"
+  },
+  {
+    "dialog_name": "SM_TOP_PiratesPriceAgree"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateMoebus"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateMoebusStart"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateMoebusDone"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateMoebusPmissing"
+  },
+  {
+    "dialog_name": "SM_TOP_PirateMoebusPmissing2"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_Battlestations"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_Gratifikation_1"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_Gratifikation_2"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_Gratifikation_3"
+  },
+  {
+    "dialog_name": "SM_TOP_Lark_Gratifikation_4"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Slick_1"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Slick_2"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Bartender_1"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Bartender_2"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Bartender_3"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Bartender_4"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Bartender_5"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Bartender_6"
+  },
+  {
+    "dialog_name": "SM_TOP_IC_Bartender_7"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_1"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_2"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_3"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_4"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_5"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_6"
+  },
+  {
+    "dialog_name": "SM_UO_StationManager_1"
+  },
+  {
+    "dialog_name": "SM_UO_StationManager_2"
+  },
+  {
+    "dialog_name": "SM_UO_StationManager_3"
+  },
+  {
+    "dialog_name": "SM_UO_StationManager_4"
+  },
+  {
+    "dialog_name": "SM_UO_StationManager_5"
+  },
+  {
+    "dialog_name": "SM_UO_StationManager_6"
+  },
+  {
+    "dialog_name": "SM_UO_ShiftManager_1"
+  },
+  {
+    "dialog_name": "SM_UO_ShiftManager_2"
+  },
+  {
+    "dialog_name": "SM_UO_ShiftManager_3"
+  },
+  {
+    "dialog_name": "SM_UO_StationAI_1"
+  },
+  {
+    "dialog_name": "SM_UO_StationAI_2"
+  },
+  {
+    "dialog_name": "SM_UO_StationAI_3"
+  },
+  {
+    "dialog_name": "SM_UO_StationAI_4"
+  },
+  {
+    "dialog_name": "SM_UO_StationAI_5"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_debriefing_1"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_debriefing_1_old"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_debriefing_2"
+  },
+  {
+    "dialog_name": "SM_UO_Sectioner32_debriefing_3"
+  },
+  {
+    "dialog_name": "Tut_Intro_Welcome"
+  },
+  {
+    "dialog_name": "Tut_Intro_EmergencyPod"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Contact"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Contact_2"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Contact_3"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_1"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_2"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_3"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_4"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_5"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_Fin_Int"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_Fin_NoItem"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_Fin_1"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_Fin_2"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Kanydan_Fin_3"
+  },
+  {
+    "dialog_name": "Tut_TuM_LittleFavor_Contact_Fin_1"
+  },
+  {
+    "dialog_name": "Tut_Registry_GiveCobaltPos_Start"
+  },
+  {
+    "dialog_name": "Tut_Registry_GiveCobaltPos_Pos"
+  },
+  {
+    "dialog_name": "Tut_PilotingCV_CptHyde"
+  },
+  {
+    "dialog_name": "Tut_PilotingCV_CmdPorter"
+  },
+  {
+    "dialog_name": "Tut_PilotingCV_CmdPorter_1"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_1"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_2"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_3"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_4"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_5"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_6"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_7"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_8"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_9"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_10"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_11"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_12"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_13"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_14"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_15"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_16"
+  },
+  {
+    "dialog_name": "Barking_Civilian_Random_17"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_1"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_2"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_3"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_4"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_5"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_6"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_7"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_8"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_9"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_10"
+  },
+  {
+    "dialog_name": "Barking_Military_Random_11"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_1"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_2"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_3"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_4"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_5"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_6"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_7"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_8"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_9"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_10"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_11"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_12"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_13"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_14"
+  },
+  {
+    "dialog_name": "Barking_Talon_Random_15"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Anywhere_Init"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Anywhere_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Anywhere_1"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Anywhere_2"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Anywhere_3"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Anywhere_4"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_Init"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_1"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_2"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_3"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_4"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_5"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_6"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_7"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_8"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_9"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_10"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_11"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_12"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_13"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_14"
+  },
+  {
+    "dialog_name": "Barking_Zirax_Own_15"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_Init"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_1"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_2"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_3"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_4"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_5"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_6"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_7"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_8"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_9"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_10"
+  },
+  {
+    "dialog_name": "Barking_Polaris_Managers_11"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_1"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_2"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_3"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_4"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_5"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_6"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_7"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_8"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_9"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_10"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_11"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_12"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_13"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_14"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_15"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_16"
+  },
+  {
+    "dialog_name": "Barking_Colonists_Random_17"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_1"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_2"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_3"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_4"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_5"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_6"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_7"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_8"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_9"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_10"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_11"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_12"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_13"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_14"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_15"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_16"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_17"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_18"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_19"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_20"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_21"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_22"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_23"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_24"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_25"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Random_26"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Agressive_Init"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Agressive_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Agressive_1"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Agressive_2"
+  },
+  {
+    "dialog_name": "Barking_Pirates_Agressive_3"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_Init"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_1"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_2"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_3"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_4"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_5"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_6"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_7"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_8"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_9"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_10"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_11"
+  },
+  {
+    "dialog_name": "Barking_Kriel_OwnStructs_12"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_1"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_2"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_3"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_4"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_5"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_6"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_7"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_8"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_9"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Random_10"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_Init"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_1"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_2"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_3"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_4"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_5"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_6"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_7"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_8"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_9"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_10"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_11"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_12"
+  },
+  {
+    "dialog_name": "Barking_Kriel_Untranslated_13"
+  },
+  {
+    "dialog_name": "SF_Grandpas_Shotguns"
+  },
+  {
+    "dialog_name": "SF_Grandpas_Shotguns_Start"
+  },
+  {
+    "dialog_name": "SF_Grandpas_Shotguns_Repeat"
+  },
+  {
+    "dialog_name": "SF_Grandpas_Shotguns_RepeatN"
+  },
+  {
+    "dialog_name": "SF_Grandpas_Shotguns_Switch_Talk"
+  },
+  {
+    "dialog_name": "SF_Grandpas_Shotguns_Switch_Trade"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse_Start"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse_Repeat"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse_RepeatN"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse_Trade_Start"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse_Trade"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse_Talk"
+  },
+  {
+    "dialog_name": "SF_Ordnance_Warehouse_Talk_End"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts_Start"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts_Repeat"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts_RepeatN"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts_RepeatN1"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts_Trade"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts_Token_Start"
+  },
+  {
+    "dialog_name": "SF_Petes_Parts_Token"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter1"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter2"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter3"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter4"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter5"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter6"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter7"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter8"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter9"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter10"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter11"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter12"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter13"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter14"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter15"
+  },
+  {
+    "dialog_name": "SF_Pirate_Chatter16"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat1"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat2"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat3"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat4"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat5"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat6"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat7"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat8"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat9"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat10"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat11"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat12"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat13"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat14"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat15"
+  },
+  {
+    "dialog_name": "SF_Pirate_Threat16"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Start"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Cont1"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Cont2"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Cont3"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Cont4"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Cont5"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Cont6"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Cont7"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Trade_Start"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Trade"
+  },
+  {
+    "dialog_name": "SF_Bens_Bar_Repeat"
+  },
+  {
+    "dialog_name": "SF_Hack_Clinic"
+  },
+  {
+    "dialog_name": "SF_Hack_Clinic_Start"
+  },
+  {
+    "dialog_name": "SF_Hack_Clinic_1"
+  },
+  {
+    "dialog_name": "SF_Hack_Clinic_Trade"
+  },
+  {
+    "dialog_name": "SF_Hack_Clinic_Token_Start"
+  },
+  {
+    "dialog_name": "SF_Hack_Clinic_Token"
+  },
+  {
+    "dialog_name": "SF_Quartermaster"
+  },
+  {
+    "dialog_name": "SF_Quartermaster_Start"
+  },
+  {
+    "dialog_name": "SF_Quartermaster_Talk1"
+  },
+  {
+    "dialog_name": "SF_Quartermaster_Talk2"
+  },
+  {
+    "dialog_name": "SF_Quartermaster_Station_Start"
+  },
+  {
+    "dialog_name": "SF_Quartermaster_Station"
+  },
+  {
+    "dialog_name": "SF_Quartermaster_Trade_start"
+  },
+  {
+    "dialog_name": "SF_Quartermaster_Trade"
+  },
+  {
+    "dialog_name": "SF_Canteen"
+  },
+  {
+    "dialog_name": "SF_Canteen_Start"
+  },
+  {
+    "dialog_name": "SF_Canteen_Cont1"
+  },
+  {
+    "dialog_name": "SF_Canteen_Cont2"
+  },
+  {
+    "dialog_name": "SF_Canteen_Trade"
+  },
+  {
+    "dialog_name": "SF_Cafeteria"
+  },
+  {
+    "dialog_name": "SF_Cafeteria_Switch"
+  },
+  {
+    "dialog_name": "SF_Cafeteria_Start"
+  },
+  {
+    "dialog_name": "SF_Cafeteria_Trade"
+  },
+  {
+    "dialog_name": "SF_Core_Station"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Start"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Cont1"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Cont2"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Cont3"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Cont4"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Hack"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Hack1"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Hack2"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Reset"
+  },
+  {
+    "dialog_name": "SF_Core_Station_Reset1"
+  },
+  {
+    "dialog_name": "SF_Core_Station_New"
+  },
+  {
+    "dialog_name": "SF_Station_Interface"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_Pir"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_Randomizer"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_1"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_2"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_3"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_4"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_5"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_6"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_7"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_8"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_9"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_10"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_11"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_12"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_13"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_14"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_15"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_16"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_17"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_18"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_19"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_20"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_EoS"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_Pla"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_New1"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_New2"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_New3"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_New4"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_New5"
+  },
+  {
+    "dialog_name": "SF_Station_Interface_New6"
+  },
+  {
+    "dialog_name": "SF_CPU_Console"
+  },
+  {
+    "dialog_name": "SF_CPU_Console_Start"
+  },
+  {
+    "dialog_name": "SF_CPU_Console_Cont1"
+  },
+  {
+    "dialog_name": "SF_CPU_Console_Cont2"
+  },
+  {
+    "dialog_name": "SM_AR_Debriefing_4"
+  },
+  {
+    "dialog_name": "SM_AR_Debriefing_5"
+  },
+  {
+    "dialog_name": "SM_AR_Debriefing_6"
+  },
+  {
+    "dialog_name": "SM_AR_ComputerDialogueA_1"
+  },
+  {
+    "dialog_name": "SM_AR_ComputerDialogueA_2"
+  },
+  {
+    "dialog_name": "SM_AR_ComputerDialogueB_1"
+  },
+  {
+    "dialog_name": "SM_AR_ComputerDialogueC_1"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_1"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_2"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_3"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_4"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_5"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_6"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_7"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_8"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_9"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_10"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_11"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_12"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_Emmerson_1"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_Emmerson_2"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_Emmerson_3"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_Emmerson_4"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_Emmerson_5"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_Emmerson_5_summary"
+  },
+  {
+    "dialog_name": "SM_Interlude_Intro_GLaDBase_Emmerson_6"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Briefing_1"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Briefing_2"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Briefing_3"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Briefing_3b"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Briefing_4"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Talk_1"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Talk_2"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Talk_3"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Talk_4"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Integrated_1"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Integrated_2"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Integrated_3"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Integrated_4"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Integrated_5"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_Yarod_Integrated_6"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_GlaD_Debriefing_1"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_GlaD_Debriefing_2"
+  },
+  {
+    "dialog_name": "SM_SigmaFulcrum_GlaD_Debriefing_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Briefing_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Briefing_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Briefing_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Yarod_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Yarod_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Yarod_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Yarod_4"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Mercer_Briefing_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Mercer_Briefing_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_Mercer_Briefing_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_4"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_5"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_6"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_7"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Welcome_8"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Archive"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_4"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_5"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_6"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_7"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_8"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_9"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission1_10"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Chooser"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Welcome"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Return"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_TeschVoid"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Legacy_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Legacy_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Legacy_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_ZiraxEmpire_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_ZiraxEmpire_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Extraction_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheKeeper_Extraction_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission2_1"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission2_2"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission2_3"
+  },
+  {
+    "dialog_name": "SM_UnexpectedAllies_TheAmbassador_Mission2_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_ThePlan_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_ThePlan_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_DoorMeeting_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_DoorMeeting_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_DoorMeeting_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_DoorMeeting_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_MercerMeeting_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_MercerMeeting_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_MercerMeeting_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Henrid_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Henrid_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Henrid_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_InfectedAttack_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_InfectedAttack_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Palant_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Palant_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Palant_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Palant_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Palant_5"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_MercerRescue_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_MercerRescue_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_MercerRescue_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_MercerRescue_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani1_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani1_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani1_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani1_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani1_5"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Alex_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Alex_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Alex_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Alex_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Tharkan_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Tharkan_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Tharkan_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Tharkan_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani2_1"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani2_2"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani2_3"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani2_4"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Hyzani2_5"
+  },
+  {
+    "dialog_name": "SM_ReasonableTreason_Finale"
+  },
+  {
+    "dialog_name": "GIN_Console_Admin"
+  },
+  {
+    "dialog_name": "GIN_Console_Initialize"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Page2"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_ArkenianRepublic"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_BoF"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_DESC"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Colonists"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Karana"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Kriel"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Pirates"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Prenn"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Wastelanders"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Ravagers"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Talon"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Tesch"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Tresari"
+  },
+  {
+    "dialog_name": "GIN_Console_FactionInfo_Zirax"
+  },
+  {
+    "dialog_name": "GIN_Console_EventsCalendar_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_EventsCalendar_Hekaton"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Politics_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Politics_1"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Economics_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Economics_1"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Society_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Society_1"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Sports_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Sports_1"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Latest"
+  },
+  {
+    "dialog_name": "GIN_Console_NetworkNews_Softwarupdates"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Factionselect"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Denied"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Success"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Zirax"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Polaris"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Talon"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Traders"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Pirates"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Kriel"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Colonists"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Init_Tesch"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Zirax"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Polaris"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Talon"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Traders"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Pirates"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Kriel"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Colonists"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Unfriendly_Tesch"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Zirax"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Polaris"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Talon"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Traders"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Pirates"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Kriel"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Colonists"
+  },
+  {
+    "dialog_name": "GIN_Console_ContactAmbassador_Hostile_Tesch"
+  },
+  {
+    "dialog_name": "RP_Tut_2_Intro"
+  },
+  {
+    "dialog_name": "RP_Tut_2_Status"
+  },
+  {
+    "dialog_name": "RP_Tut_2_StatusOverviewPanel"
+  },
+  {
+    "dialog_name": "RP_Tut_2_SurvivalTool"
+  },
+  {
+    "dialog_name": "RP_Tut_2_SurvivalTool_Defence"
+  },
+  {
+    "dialog_name": "RP_Tut_2_SurvivalTool_Resource"
+  },
+  {
+    "dialog_name": "RP_Tut_2_SurvivalTool_Salvage"
+  },
+  {
+    "dialog_name": "RP_Tut_2_SurvivalTool_Exit"
+  },
+  {
+    "dialog_name": "RP_Tut_2_PDA"
+  },
+  {
+    "dialog_name": "RP_Tut_2_BedAndBreakfast"
+  },
+  {
+    "dialog_name": "RP_Tut_2_Crafting"
+  },
+  {
+    "dialog_name": "RP_ComStation_Console_Init"
+  },
+  {
+    "dialog_name": "RP_ComStation_Console_NoMission"
+  },
+  {
+    "dialog_name": "RP_ComStation_Console_1"
+  },
+  {
+    "dialog_name": "RP_ComStation_Console_2"
+  },
+  {
+    "dialog_name": "RP_ComStation_LogMessage"
+  },
+  {
+    "dialog_name": "RP_ComStation_LogMessage_1"
+  },
+  {
+    "dialog_name": "RP_ComStation_LogMessage_2"
+  },
+  {
+    "dialog_name": "RP_ComStation_LogMessage_3"
+  },
+  {
+    "dialog_name": "RP_ComStation_LogMessage_4"
+  },
+  {
+    "dialog_name": "RP_ComStation_LogMessage_5"
+  },
+  {
+    "dialog_name": "RP_ComStation_LogMessage_5_Alternative"
+  },
+  {
+    "dialog_name": "SM_TotP_Intro_Trader_1"
+  },
+  {
+    "dialog_name": "SM_TotP_Finale_Shaman"
+  },
+  {
+    "dialog_name": "SM_Prelude_RegistrationConsole_Init"
+  },
+  {
+    "dialog_name": "SM_Prelude_RegistrationConsole_Intro"
+  },
+  {
+    "dialog_name": "SM_Prelude_RegistrationConsole_BlockedPlanet"
+  },
+  {
+    "dialog_name": "SM_Prelude_RegistrationConsole_LookingForSomeone"
+  },
+  {
+    "dialog_name": "SM_Prelude_RegistrationConsole_IDA"
+  },
+  {
+    "dialog_name": "SM_Prelude_RegistrationConsole_Intro_Nomission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Debug_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Debug_SetMissionState"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_PickupLine"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Welcome_Return"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Personal"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_PlanetBlocked"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_UCHLogo"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Tash"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_GetDown_Chose"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_GetDownAccept"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part2_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part2_Info_Trust"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part2_Info_OPPhoenix"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part2_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part2_Mission_Return"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part2_Mission_Complete"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part3_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part3_Mission_Return"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part3_Info_SpecialForces"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_Part3_Mission_Complete"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_GLaD"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_End"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_GLaD_Outpost"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_GLaD_PrisonBreak"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Kezzel_GLaD_Rescue"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Welcome_Kezzel"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Mission1"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Mission1_2ndInit"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Mission1_Return"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Mission1_Completed"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Mission2"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Mission2_Return"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Mission2_Completed"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Info_Wreckage"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Info_Hyzani"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Info_Tash"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Huzzra_Info_Zirax"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Rexxen_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Rexxen_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Rexxen_NoMission"
+  },
+  {
+    "dialog_name": "SM_TotP_Finale_Blacksmith"
+  },
+  {
+    "dialog_name": "SM_TotP_SanctuaryDroid_Init"
+  },
+  {
+    "dialog_name": "SM_HR_Intro"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mandor_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mandor_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mandor_Intro"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mandor_DeliverData"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mandor_Info_YourTask"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mandor_Info_Incident"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mandor_Info_Survivors"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Heidelberg_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Heidelberg_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Heidelberg_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Heidelberg_Log_Palant"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Heidelberg_Log_Emmerson"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Heidelberg_Log_Unknown"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Yilk_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Yilk_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Yilk_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Urfk_Init"
+  },
+  {
+    "dialog_name": "POI_TOPBrewery_ContainerCode"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Urfk_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Urfk_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Lark_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Lark_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TOP_Lark_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_MaintenanceConsole_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_MaintenanceConsole_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_MaintenanceConsole_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_CompromisedConsole_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_CompromisedConsole_1"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_CompromisedConsole_2"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_CompromisedConsole_3"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_CompromisedConsole_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_DataCore_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_DataCore_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_TITAN_DataCore_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mainframe_IDA_1"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Mainframe_IDA_2"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Info_Alex"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Info_Fleet"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Info_Departure"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Mission_Fulcrum"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Mission_Fulcrum_Info_Yarod"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Mission_Fulcrum_Info_Station"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Mission_Fulcrum_Info_Salurian"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Mission_Fulcrum_Return"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_Mission_Fulcrum_Complete"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_GLaD_Ambush_1"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_GLaD_Ambush_1_Return"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_CmdMercerJr_GLaD_Ambush_2"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Emmerson_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Emmerson_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Emmerson_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Emmerson_Info_Alex"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Emmerson_Info_Junior"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Emmerson_GLaD_Ambush"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Palant_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Palant_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Palant_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Palant_GLaD_Ambush"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_Welcome"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_Info_Savior"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_Info_Situation"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_Info_Complications"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_FC_ConsoleAccess_Init"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_FC_ConsoleAccess_NoMission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_FC_ConsoleAccess_Mission"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_FC_ConsoleAccess_Mission_Part2"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Yarod_FC_ConsoleAccess_Mission_Part3"
+  },
+  {
+    "dialog_name": "SM_OPP_LaF_Alex_Prison"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Guard_Init"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Guard"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Guard_1"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Guard_2"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Guard_3"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Guard_NoMission"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Carver_Init"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Carver_1"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Carver_2"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Carver_NoMission"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Init"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_1"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_2"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_3"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_4"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_4b"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_5"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Debrief"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Debrief_1"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Debrief_2"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Debrief_3"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Debrief_4"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Debrief_5"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Debrief_6"
+  },
+  {
+    "dialog_name": "Sanctuary_Teleporter_Console"
+  },
+  {
+    "dialog_name": "Sanctuary_Teleporter_Console_HasItem"
+  },
+  {
+    "dialog_name": "Sanctuary_Teleporter_Console_NoCard"
+  },
+  {
+    "dialog_name": "SM_HR_Sanctuary_Kezzel_Nomission"
+  },
+  {
+    "dialog_name": "SM_TOP_Kezzel"
+  },
+  {
+    "dialog_name": "SM_TOP_Kezzel_1"
+  },
+  {
+    "dialog_name": "SM_TOP_Kezzel_2"
+  },
+  {
+    "dialog_name": "SM_Offworld_Grave_Titan_Bridge_Log"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Moneycheck"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_NoMoney"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Randomizer"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_ARest"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Biker"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_DontHide"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_ForeignWorld"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Jump"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_NewWorld"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_SoleDesert"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Stranger"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Survivor"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_TakingABreak"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Talon"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Trader"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_ZiraxAlienWorld"
+  },
+  {
+    "dialog_name": "GIN_Console_Shop_Posters_Bought"
+  },
+  {
+    "dialog_name": "Console_Reports_IDA_Help"
+  },
+  {
+    "dialog_name": "Console_Reports_DebugViewMilitary"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Start"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Init"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Init_Blocked"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Granted"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Randomizer"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Export_1"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Export_2"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Export_3"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Export_4"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Export_5"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Check_Again"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Reports_Check_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Manual"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_RED"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_RED_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Granted_RED_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Failed_RED_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Failed_RED_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_BLUE"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_BLUE_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Granted_BLUE_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Failed_BLUE_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Failed_BLUE_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_GREEN"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_GREEN_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Granted_GREEN_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Failed_GREEN_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Access_Hacking_Failed_GREEN_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Military_Exit"
+  },
+  {
+    "dialog_name": "Console_Reports_DebugViewCommon"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Start"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Init"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Init_Blocked"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Granted"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Randomizer"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Export_1"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Export_2"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Export_3"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Export_4"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Export_5"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Check_Again"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Reports_Check_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Manual"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_RED_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Granted_RED_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Failed_RED_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Failed_RED_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_BLUE_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Granted_BLUE_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Failed_BLUE_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Failed_BLUE_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_GREEN"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_GREEN_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Granted_GREEN_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Failed_GREEN_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Common_Access_Hacking_Failed_GREEN_CardDestroyed"
+  },
+  {
+    "dialog_name": "RP_ComStation_BaseBuilding_init"
+  },
+  {
+    "dialog_name": "RP_ComStation_BaseBuilding_Choice"
+  },
+  {
+    "dialog_name": "RP_ComStation_BaseBuilding_CompleteMessage"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_whisper_1"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_whisper_2"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_whisper_3"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_Override_1"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_Override_2"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_Override_3"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_Override_4"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_Override_5"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_Override_6"
+  },
+  {
+    "dialog_name": "SM_AR_Whisper_Override_7"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Init"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Admin"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_TokenCheck"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_RedeemToken"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Rewards"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_NoToken"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_NoRewards"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_RewardsCheck"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_RewardInfo"
+  },
+  {
+    "dialog_name": "LogsFound_Main_Init"
+  },
+  {
+    "dialog_name": "LogsFound_Ningues_Init"
+  },
+  {
+    "dialog_name": "LogsFound_Ningues_Spoiler"
+  },
+  {
+    "dialog_name": "LogsFound_Skillon_Init"
+  },
+  {
+    "dialog_name": "LogsFound_Skillon_Spoiler"
+  },
+  {
+    "dialog_name": "LogsFound_Ashon_Init"
+  },
+  {
+    "dialog_name": "LogsFound_Ashon_Spoiler"
+  },
+  {
+    "dialog_name": "GS_Skillon_Debug"
+  },
+  {
+    "dialog_name": "GS_Ningues_Debug"
+  },
+  {
+    "dialog_name": "GS_Ashon_Debug"
+  },
+  {
+    "dialog_name": "GS_Akua_Debug"
+  },
+  {
+    "dialog_name": "GS_Ningues_Convoy_Report_1"
+  },
+  {
+    "dialog_name": "GS_Ningues_Convoy_Report_2"
+  },
+  {
+    "dialog_name": "GS_Ningues_Convoy_Report_3"
+  },
+  {
+    "dialog_name": "GS_Ningues_Convoy_Obelisk"
+  },
+  {
+    "dialog_name": "GS_Ningues_Convoy_Obelisk_Rescued"
+  },
+  {
+    "dialog_name": "GS_Ningues_RescueWalker"
+  },
+  {
+    "dialog_name": "GS_Ningues_SynthLab_Hial"
+  },
+  {
+    "dialog_name": "GS_Ningues_Gorge_Hial"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Direction"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Unfriendly"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Init"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Start"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Start_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_Return_Questions"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Situation"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Artifacts"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_UCH"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Tash"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_Start"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_1"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_1_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_1_Complete"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_2"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_2_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_2_Complete"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_3"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_StarterPlanetMissions"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_Full"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_Alex"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_Custom"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_Bookmarks"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_SetUCHStoryMission"
+  },
+  {
+    "dialog_name": "FM_UCH_Debug_SetUCHStoryMission_Page2"
+  },
+  {
+    "dialog_name": "Bookmark_Set_PhoenixSystem"
+  },
+  {
+    "dialog_name": "Bookmark_Remove_PhoenixSystem"
+  },
+  {
+    "dialog_name": "Bookmark_Set_NewTerra"
+  },
+  {
+    "dialog_name": "Bookmark_Remove_NewTerra"
+  },
+  {
+    "dialog_name": "Bookmark_Set_Ningues"
+  },
+  {
+    "dialog_name": "Bookmark_Remove_Ningues"
+  },
+  {
+    "dialog_name": "Bookmark_Set_ArkeniaPrime"
+  },
+  {
+    "dialog_name": "Bookmark_Remove_ArkeniaPrime"
+  },
+  {
+    "dialog_name": "FM_UCH_Bookmark_Delete_Akua"
+  },
+  {
+    "dialog_name": "FM_UCH_Bookmark_Delete_Skillon"
+  },
+  {
+    "dialog_name": "FM_UCH_Bookmark_Delete_Masperon"
+  },
+  {
+    "dialog_name": "FM_UCH_Bookmark_Delete_Ashon"
+  },
+  {
+    "dialog_name": "FM_UCH_Bookmark_Set_Virix"
+  },
+  {
+    "dialog_name": "FM_UCH_Bookmark_Delete_Virix"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission3_Bookmark_ListeningOutpost"
+  },
+  {
+    "dialog_name": "FM_UCH_Bookmark_Delete_ArkeniaPrime"
+  },
+  {
+    "dialog_name": "FM_UCH_Phoenix_SunOrbit_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_Phoenix_SunOrbit_Confirmed"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_init"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Welcome"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Welcome_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_FirstArrival"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_PreArrival"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_GLaD"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_OPPH_1"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_OPPH_2"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Situation"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_TalkToAlex"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_NoTasks"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_StarterPlanets"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_Akua"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_Ningues"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_Masperon"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_Skillon"
+  },
+  {
+    "dialog_name": "FM_UCH_Perez_Tasks_Ashon"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Welcome"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Welcome_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Welcome_Return_Questions"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Info_Prisoners"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Info_GLaD"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Info_GLaDOutpost"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Info_Tharkan"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Info_Hyzani"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Info_Tash"
+  },
+  {
+    "dialog_name": "FM_UCH_Alex_Info_Situation"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission1"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission1_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission1_PilotDead"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission1_PilotPDA"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission1_ShipLog"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission1_Complete"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission2"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission2_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission2_Complete"
+  },
+  {
+    "dialog_name": "FM_UCH_Boreas_ResearchCamp_ExcavationLeader_Start"
+  },
+  {
+    "dialog_name": "FM_UCH_Boreas_ResearchCamp_ExcavationLeader_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_Boreas_ResearchCamp_ExcavationLeader_UCH_Mission2"
+  },
+  {
+    "dialog_name": "FM_UCH_Boreas_ResearchCamp_ExcavationLeader_UCH_Mission2_1"
+  },
+  {
+    "dialog_name": "FM_UCH_Boreas_ResearchCamp_ExcavationLeader_UCH_Mission2_2"
+  },
+  {
+    "dialog_name": "FM_UCH_ExcavationSite_Console_Start"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission3"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission3_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission3_Complete"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission3_ListeningOutpost"
+  },
+  {
+    "dialog_name": "FM_UCH_CapturedScout_PDA_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_CapturedScout_Console_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_CapturedScout_Console_IDA"
+  },
+  {
+    "dialog_name": "FM_UCH_CapturedScout_Console_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_PirateVessel_CommandersLog_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_PirateVessel_CommandersLog_1"
+  },
+  {
+    "dialog_name": "FM_UCH_PirateVessel_CommandersLog_2"
+  },
+  {
+    "dialog_name": "FM_UCH_PirateVessel_MainConsole_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_StationManager_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_StationManager_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_StationManager_Mission_1"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_StationManager_Mission_2"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_StationManager_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_StationManager_NoMission_1"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_CommandConsole_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_CommandConsole_Locked"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_CommandConsole_Unlocked"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_CommandConsole_IDA"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_EngineRoom_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_EngineRoom_Locked"
+  },
+  {
+    "dialog_name": "FM_UCH_ListeningOutpost_EngineRoom_Unlocked"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Complete"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Info_Admiral"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Info_WhoAreThey"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Info_Attackers"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Info_Android"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Info_LAOCAI"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Info_Substance"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Info_Colony"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Briefing"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Accepted_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Hyperion"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_YadenMercer"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_NextSteps"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Virix_Arrival"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Registry_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Registry_Start"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Registry_Reception"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Registry_Confirmed"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Registry_Reception_Paid"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_NoMoney"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Registry_Reception_Lowrep"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Mission_1a"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Mission_1b"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Mission_2a"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Mission_2a_Return"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Mission_2a_Management"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Mission_2a_Visitors"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Bartender_Mission_2a_Area"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Croupier_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Croupier_Mission1a"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Croupier_Mission1b"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_Croupier_Mission_RoundWon"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_PersonalPDA"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_UCHVessel"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_SalurianCommand_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_SalurianCommand"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_SalurianCommand_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Reststop_SalurianCommand_Escape"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Arrival"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Prisoners_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Prisoners_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Prisoners_Mission_talked"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Prisoners_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Scientist_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Scientist_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Scientist_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Yaden_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Yaden_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Yaden_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Bridge_Logs_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Bridge_Logs_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Xenari_Bridge_Logs_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Welcome"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Info_Start"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Info_Why"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Info_Phoenix"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Info_Escape"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Info_Hyperion"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Mercer_Info_Leaving"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_DeepMine_Console"
+  },
+  {
+    "dialog_name": "FM_UCH_MercerSenior_Dronebase_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_MercerSenior_Dronebase_PostMission5_Start"
+  },
+  {
+    "dialog_name": "FM_UCH_MercerSenior_Dronebase_PostMission5_Info_Abductions"
+  },
+  {
+    "dialog_name": "FM_UCH_MercerSenior_Dronebase_PostMission5_Info_PhoenixSystem"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Hyperion_Console_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Hyperion_Console_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Hyperion_Console_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Alex_Epilog_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Alex_Epilog"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Select_StarterAkua"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Select_StarterNingues"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Select_StarterSkillon"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Select_StarterMasperon"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Select_StarterAshon"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Select_StarterArkenianRepublic"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Complete_Select_NoMissions"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Perez"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Perez_Epilog"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Mercer"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission5_Mercer_Epilog"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_Randomizer"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_1"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_2"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_3"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_4"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_5"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_6"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_7"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_8"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_9"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_10"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_11"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_12"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Reststop_Barking_13"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_MercerJunior_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_MercerJunior_Mission_1"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_MercerJunior_Mission_2"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_MercerJunior_Mission_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Alex_Mercer"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Alex_WindowShopping"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_NovaCafe_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_NovaCafe_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_NovaCafe_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Surplus_Trader_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Surplus_Trader_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Clinic_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Clinic_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Clinic_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_KelonPDA_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_KelonPDA_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_KelonPDA_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Alex_ReportFindings"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Loadmaster_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Loadmaster_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Loadmaster_Mission_1"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_Loadmaster_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamberGalery_IDA"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamber_Technician_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamber_Technician_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamber_Technician_Mission_Success"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamber_Technician_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamber_IDA_OpenHatches_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamber_IDA_OpenHatches"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamber_IDA_OpenHatches_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamberConsole_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamberConsole_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_SenateChamberConsole_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_CommandConsole_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_CommandConsole_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_CommandConsole_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Warehouse_PDA_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Warehouse_PDA_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Warehouse_PDA_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Greenhouse_PDA_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Greenhouse_PDA_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Greenhouse_PDA_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_SleepingRoom_PDA_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_SleepingRoom_PDA_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_SleepingRoom_PDA_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Antenna_PDA_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Antenna_PDA_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Antenna_PDA_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AgriHub_Teleporter_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AbandonedBase_Perez_Listen"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AbandonedBase_Perez_IDA"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AbandonedBase_EngineRoomConsole_Init"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AbandonedBase_EngineRoomConsole_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AbandonedBase_EngineRoomConsole_NoMission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AbandonedBase_Sabotage_Mission"
+  },
+  {
+    "dialog_name": "FM_UCH_OperationPhoenix_Mission4_AbandonedBase_AdmiralPerezDouble"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_3_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_3_Complete"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_4"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_4_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_5"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_5_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Pendrell_Mission_5_Complete"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Hendrell_Init"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Hendrell_1"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Hendrell_2"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_Init"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_other"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_1"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_1a"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_1b"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_1c"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_2"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_2a"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Gorge_Elders_2c"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Lab_Elders_Init"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Lab_Elders_1a"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Lab_Elders_1b"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Lab_Elders_2"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Lab_Elders_ELSE"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Init"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_NoMission"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_NinguesStart"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_NoNinguesStart"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Info_TechProblems"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Info_Battle"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Info_Hishkal"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Info_Tash"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Info_Research"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Mission_DrOnoko"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Mission_DrOnoko_FoundPDA"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Mission_DrOnoko_Complete"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Colonists_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Colonists_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Colonists_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Tesch_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Tesch_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Tesch_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Farr_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Farr_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Farr_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Wastelanders_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Wastelanders_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Wastelanders_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_ARC_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_ARC_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_ARC_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_ArkenianRepublic_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_ArkenianRepublic_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_ArkenianRepublic_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_PrennFederation_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_PrennFederation_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_PrennFederation_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Helios_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Helios_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Helios_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Ravagers_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Ravagers_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Ravagers_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Karana_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Karana_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Karana_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Tresari_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Tresari_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Tresari_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Xenu_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Xenu_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Xenu_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Rados_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Rados_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Rados_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Ghyst_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Ghyst_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Ghyst_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Epsilon_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Epsilon_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Epsilon_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Serdu_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Serdu_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Serdu_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Trader_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Trader_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Trader_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Polaris_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Polaris_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Polaris_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Pirates_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Pirates_Allowed"
+  },
+  {
+    "dialog_name": "GS_Skillon_Log_ClexClato"
+  },
+  {
+    "dialog_name": "LM_Skillon_Debug_Init"
+  },
+  {
+    "dialog_name": "LM_Skillon_Debug_Progress"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Direction"
+  },
+  {
+    "dialog_name": "LM_Masperon_Abyssal_Direction"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Pirates_NotAllowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Abyssal_Init"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Abyssal_Allowed"
+  },
+  {
+    "dialog_name": "Core_Purge_Switch_Check_Abyssal_NotAllowed"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_Mission_5_Complete"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Rend_AfterMission"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Guard_Init"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Guard_MissionActive"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Guard_Return"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Guard_Talk"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Mission5_Finale_Init"
+  },
+  {
+    "dialog_name": "LM_Ningues_Polaris_Mission5_Finale_1"
+  },
+  {
+    "dialog_name": "GS_Ningues_IsGameStart"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankA"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankB"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankC"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankD"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankE"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankF"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankG"
+  },
+  {
+    "dialog_name": "GIN_Console_ExplG_Unlock_RankH"
+  },
+  {
+    "dialog_name": "Console_Reports_DebugViewSecurity"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Start"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Init"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Init_Blocked"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Granted"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Randomizer"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Export_1"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Export_2"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Export_3"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Export_4"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Export_5"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Check_Again"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Reports_Check_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Manual"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_RED"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_RED_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Granted_RED_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Failed_RED_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Failed_RED_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_BLUE"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_BLUE_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Granted_BLUE_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Failed_BLUE_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Failed_BLUE_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_GREEN"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_GREEN_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Granted_GREEN_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Failed_GREEN_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Security_Access_Hacking_Failed_GREEN_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_DebugViewExploration"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Start"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Init"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Init_Blocked"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Granted"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Randomizer"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Export_1"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Export_2"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Export_3"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Export_4"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Export_5"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Check_Again"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Reports_Check_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Manual"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_RED"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_RED_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Granted_RED_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Failed_RED_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Failed_RED_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_BLUE"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_BLUE_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Granted_BLUE_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Failed_BLUE_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Failed_BLUE_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_GREEN"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_GREEN_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Granted_GREEN_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Failed_GREEN_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Exploration_Access_Hacking_Failed_GREEN_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_DebugViewScience"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Start"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Init"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Init_Blocked"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Granted"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Randomizer"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Export_1"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Export_2"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Export_3"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Export_4"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Export_5"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Check_Again"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Reports_Check_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Manual"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Failed"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_RED_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Granted_RED_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Failed_RED_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Failed_RED_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_BLUE"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_BLUE_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Granted_BLUE_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Failed_BLUE_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Failed_BLUE_CardDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_GREEN"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_GREEN_KeyCheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Granted_GREEN_KeyDestroyed"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Failed_GREEN_Keycheck"
+  },
+  {
+    "dialog_name": "Console_Reports_Science_Access_Hacking_Failed_GREEN_CardDestroyed"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Start"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Start_1"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Start_2"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Start_3"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Start_4"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_SingingStars"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_SingingStars_2"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Start"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Wrong"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Plain"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Success"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Message"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Message2"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_Message3"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_ELV_NoMission"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Whispering_1"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Whispering_2"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Whispering_3"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader_Trade"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader1_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader1_Talk"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader2_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader2_Talk"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader3_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader3_Talk"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader4_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Trader4_Talk"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Chief_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Chief_1"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Chief_2"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Chief_3"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Chief_4"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Shaman_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Shaman_NoMission"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Shaman_NoMission_GoChief"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Shaman_Present"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Prisoner1_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Prisoner1_Info"
+  },
+  {
+    "dialog_name": "Barking_MurkyChristmas_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_MurkyChristmas_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_MurkyChristmas_Random_1"
+  },
+  {
+    "dialog_name": "Barking_MurkyChristmas_Random_2"
+  },
+  {
+    "dialog_name": "Barking_MurkyChristmas_Random_3"
+  },
+  {
+    "dialog_name": "Barking_MurkyChristmas_Random_4"
+  },
+  {
+    "dialog_name": "Barking_MurkyChristmas_Random_5"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_Init"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_1"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_2"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_3"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_4"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_5"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_6"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_7"
+  },
+  {
+    "dialog_name": "SM_MurkyChristmas_Debriefing_8"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Init"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Archive"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Archive_Page2"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Archive_SummaryLog16"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_LocationSpoilers_Init"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_LocationSpoilers_Akua"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_LocationSpoilers_Ningues"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_LocationSpoilers_Skillon"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_LocationSpoilers_Masperon"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Debug"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Konsoles"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_Found"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_Select"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_EndState"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_Summary"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log_Info"
+  },
+  {
+    "dialog_name": "Quests_WhereToLookUp_Init"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_CancelAllonPlayfieldLeave"
+  },
+  {
+    "dialog_name": "Quests_WhereToLookUp_Info"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log1"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log2"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log3"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log4"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log5"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log6"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log7"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log8"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log9"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log10"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log11"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log12"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log13"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log14"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Gamestart"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Gamestart_Info"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Gamestart_LookThingsUpAgain"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log15"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Log16"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_InitialLocation"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyAlpha_Init"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyAlpha"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyBeta_Init"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyBeta"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyGamma_Init"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyGamma"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyDelta_Init"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_MatrixKeyDelta"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_RiskAssessment"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_RiskAssessment_Crown"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_RiskAssessment_Akua"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_RiskAssessment_Ningues"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_RiskAssessment_Skillon"
+  },
+  {
+    "dialog_name": "GS_Akua_IsGamestart"
+  },
+  {
+    "dialog_name": "GS_Skillon_IsGameStart"
+  },
+  {
+    "dialog_name": "GS_Ashon_IsGameStart"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Unfriendly"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Unfriendly"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_RiskAssessment_Masperon"
+  },
+  {
+    "dialog_name": "GS_Masperon_IsGamestart"
+  },
+  {
+    "dialog_name": "LogsFound_Masperon_Init"
+  },
+  {
+    "dialog_name": "LogsFound_Masperon_Spoiler"
+  },
+  {
+    "dialog_name": "LogsFound_Akua_Init"
+  },
+  {
+    "dialog_name": "LogsFound_Akua_Page2"
+  },
+  {
+    "dialog_name": "LogsFound_Akua_Spoiler"
+  },
+  {
+    "dialog_name": "PDA_Akua_AbandonedBase_UlaNes"
+  },
+  {
+    "dialog_name": "GS_Masperon_Debug"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_RiskAssessment_Omicron"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Animals"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Animals_AlienBug01"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Animals_Lizardmule"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Animals_Pangolin"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Animals_Parasaur"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Animals_Tellurpod"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Animals_Raptor"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Plants"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_PlanetData_Ores"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_Locations"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_Location_ScientistCamp"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_Location_DigSite"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_Location_SupplyBunker"
+  },
+  {
+    "dialog_name": "PDA_Akua_Digsite_PnaIsMrel"
+  },
+  {
+    "dialog_name": "PDA_SupplyDepot_Akua_Krell_1"
+  },
+  {
+    "dialog_name": "PDA_SupplyDepot_Akua_Krell_2"
+  },
+  {
+    "dialog_name": "PDA_SupplyDepot_Akua_Krell_3"
+  },
+  {
+    "dialog_name": "PDA_SupplyDepot_Akua_Krell_4"
+  },
+  {
+    "dialog_name": "PDA_SupplyDepot_Akua_Krell_5"
+  },
+  {
+    "dialog_name": "PDA_Akua_Digsite_WrenInhal"
+  },
+  {
+    "dialog_name": "RQ_SupplyDepot_Akua_TraderHersawh_Init"
+  },
+  {
+    "dialog_name": "RQ_SupplyDepot_Akua_TraderHersawh_Mission4_Welcome"
+  },
+  {
+    "dialog_name": "RQ_SupplyDepot_Akua_TraderHersawh_Mission4_Info"
+  },
+  {
+    "dialog_name": "RQ_SupplyDepot_Akua_TraderHersawh_Mission4_Return"
+  },
+  {
+    "dialog_name": "RQ_SupplyDepot_Akua_TraderHersawh_Mission4_Completed"
+  },
+  {
+    "dialog_name": "RQ_SupplyDepot_Akua_TraderHersawh_NoMission"
+  },
+  {
+    "dialog_name": "RQ_SupplyDepot_Akua_TraderHersawh_Ruin"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_Location_FontOfKnowledge"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Temperate_Location_Farms"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_All_PrivateData"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_All_PrivateData_Obligation"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Capture_Base_Init"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Capture_Base"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_Milestone"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_Manual"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_General_Info"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_HowToStart_1"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_HowToStart_2"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_LookInfoUpAgain"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_Basics"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_HV_Basics_MiningHelp"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_SV_Milestone"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_Debug"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_Milestone"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_Manual"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_General_Info"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_HowToStart_1"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_HowToStart_2"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_LookInfoUpAgain"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_Basics"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_BA_Basics_MiningHelp"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Part2"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_CORE"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_CORE_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_CAPACITOR"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_CAPACITOR_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_SOLARPANEL"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_SOLARPANEL_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_GENERATOR"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_GENERATOR_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_FUELTANK"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_FUELTANK_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_DOOR"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_DOOR_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_WINDOWS"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_WINDOWS_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_STAIRS"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_STAIRS_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_BuildilngHelp_Basics"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_BLOCKS"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_BLOCKS_success"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_ProgressCheck"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_ProgressCheck_Solar"
+  },
+  {
+    "dialog_name": "RP_Tut_3_Guide_Shelter_Basics_Placed_ProgressCheck_Generator"
+  },
+  {
+    "dialog_name": "RP_Tut_3_HV"
+  },
+  {
+    "dialog_name": "RP_Tut_3_SurvivalTool_Pickup"
+  },
+  {
+    "dialog_name": "RP_Tut_3_SurvivalTool_Pickup_Video"
+  },
+  {
+    "dialog_name": "VM_SurvivalTool"
+  },
+  {
+    "dialog_name": "RP_Tut_3_HV_NeedHelpWithCrafting"
+  },
+  {
+    "dialog_name": "RP_Tut_3_BA_Init"
+  },
+  {
+    "dialog_name": "RP_Tut_3_HV_HelpWithUI"
+  },
+  {
+    "dialog_name": "VM_HUD_Player"
+  },
+  {
+    "dialog_name": "VM_HUD_HV"
+  },
+  {
+    "dialog_name": "VM_HUD_SVCV"
+  },
+  {
+    "dialog_name": "VM_Crafting_Basic"
+  },
+  {
+    "dialog_name": "VM_Crafting_Advanced"
+  },
+  {
+    "dialog_name": "VM_Crafting_Logistics"
+  },
+  {
+    "dialog_name": "VM_Building_Basics_HV"
+  },
+  {
+    "dialog_name": "VM_Building_Basics_SV"
+  },
+  {
+    "dialog_name": "VM_Building_Basics_CV"
+  },
+  {
+    "dialog_name": "VM_Building_Basics_BA"
+  },
+  {
+    "dialog_name": "VM_Building_BPFactory"
+  },
+  {
+    "dialog_name": "VM_Building_Advanced"
+  },
+  {
+    "dialog_name": "GIN_Console_Story"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Barren"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Barren_PlanetData"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Barren_Locations"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Barren_Location_Opportunity"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Barren_Location_AbandonedWorkshop"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Barren_Location_EmergencyShelter"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Snow"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Snow_PlanetData"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Alien"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_Consoles_Alien_PlanetData"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_DestroyedTSO_Init"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_DestroyedTSO_Cache"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_DestroyedTSO_Cache_1"
+  },
+  {
+    "dialog_name": "SM_TalesOfTash_DestroyedTSO_Cache_2"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Debug"
+  },
+  {
+    "dialog_name": "GS_Akua_BadRep"
+  },
+  {
+    "dialog_name": "LM_Akua_Talon_Direction_Init"
+  },
+  {
+    "dialog_name": "LM_Akua_Talon_Direction"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Init"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChiefnotVisited"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_BadRep"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_BadRep_apologize1"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Welcome"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Intro"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Welcome_Return"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Questions_Init"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Questions_Return"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_PlanetInfo"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_People"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_POIinfo"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Tash"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_UCH"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Init"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_BadRep"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Start"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Trade"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_NothingToDo"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_SpeakYouLater"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_QuestActive"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_QuestCanceledDialogue"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Randomizer_Init"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Task"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Task_FieldMission1"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Task_FieldMission2"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_1"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_2"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_3"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_4"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_5"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_1_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_2_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_3_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_4_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Farms_Mission_5_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Init"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_VHnotVisited"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_BadRep"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Start"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Trade"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_NothingToDo"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_SpeakYouLater"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_QuestActive"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_QuestCanceledDialogue"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Randomizer_Init"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Task"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Task_FarmMission1"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Task_FarmMission2"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Task_FarmMission3"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_1"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_2"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_3"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_4"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_5"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_1_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_2_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_3_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_4_Completed"
+  },
+  {
+    "dialog_name": "Quests_TemperateStarter_Fields_Mission_5_Completed"
+  },
+  {
+    "dialog_name": "Quests_Talon_Archiv_TemperateStarter_Init"
+  },
+  {
+    "dialog_name": "Quests_Talon_Archiv_TemperateStarter_Select"
+  },
+  {
+    "dialog_name": "Quests_Talon_Archiv_TemperateStarter_Farms"
+  },
+  {
+    "dialog_name": "Quests_Talon_Archiv_TemperateStarter_Fields"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_1_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_1_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_2_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_2_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_4_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_4_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_5_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_5_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_5_Tannin_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Farms_Mission_5_Tannin_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_1_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_1_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_2_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_2_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_3_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_3_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_4_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_4_GiveItem"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_5_check"
+  },
+  {
+    "dialog_name": "Quest_TemperateStarter_Fields_Mission_5_GiveItem"
+  },
+  {
+    "dialog_name": "GIN_Console_Story_TimeAndDate"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_Mission"
+  },
+  {
+    "dialog_name": "LM_Akua_SettlementChief_AfterMission"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Init"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_NoMission"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_1"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_1_Return"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_1_Completed"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_2"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_2_Return"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_2_Completed"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_3"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_3_Return"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_3_Completed"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_4"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_4_Return"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_4_Completed"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_5"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_5_Return"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_Mission_5_Completed"
+  },
+  {
+    "dialog_name": "LM_Akua_CaptainOfTheGuard_AfterMission"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_Init"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_NoMission"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_Welcome"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_Mission"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_Return"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_Completed"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_AfterQuest"
+  },
+  {
+    "dialog_name": "GS_Masperon_SmallGorge_HunkaTerf"
+  },
+  {
+    "dialog_name": "GS_Masperon_Gorge_Vermil"
+  },
+  {
+    "dialog_name": "GS_MAsperon_Gorge_ElgoSigh_1"
+  },
+  {
+    "dialog_name": "GS_MAsperon_Gorge_ElgoSigh_2"
+  },
+  {
+    "dialog_name": "GS_Masperon_Cage_KyzzenArl"
+  },
+  {
+    "dialog_name": "GS_Masperon_Geological_RokIz"
+  },
+  {
+    "dialog_name": "LM_Masperon_Guard_Init"
+  },
+  {
+    "dialog_name": "GS_Akua_TowerGuard_AfterMission"
+  },
+  {
+    "dialog_name": "LM_Masperon_Guard_Return"
+  },
+  {
+    "dialog_name": "LM_Masperon_Guard_1"
+  },
+  {
+    "dialog_name": "LM_Masperon_Guard_2"
+  },
+  {
+    "dialog_name": "LM_Akua_AbandonedBase_Init"
+  },
+  {
+    "dialog_name": "LM_Akua_AbandonedBase_1"
+  },
+  {
+    "dialog_name": "LM_Akua_AbandonedBase_2"
+  },
+  {
+    "dialog_name": "LM_Akua_AbandonedBase_NoMission"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Init"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Welcome"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Welcome_Return"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Planet"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Situation"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_UCH"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Tash"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Ezzren"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_Mission"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ikkenz_AfterMission"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Init"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_GoAway"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Start"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_1"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_1_Return"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_1_Complete"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_2"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_2_Return"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_2_Complete"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_3"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_3_Return"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_3_Complete"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_4"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_4_Return"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_4_Complete"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_5"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_5_Return"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_5_Complete"
+  },
+  {
+    "dialog_name": "LM_Masperon_Ezzren_Mission_AfterMission"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Scrummer_Init"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Scrummer_1"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Scrummer_2"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Scrummer_Return"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Init"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Start"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Return"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Planet"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Situation"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_UCH"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Tash"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Mission"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Debriefing"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_Debriefing_Finale"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Sehk_After_Finale"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Init"
+  },
+  {
+    "dialog_name": "LM_Masperon_Abyssal_Unfriendly"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_GotoCaptain"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_1"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_1_Return"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_1_Completed"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_1"
+  },
+  {
+    "dialog_name": "BA_UCHExcavationSiteLostTeam1"
+  },
+  {
+    "dialog_name": "BA_UCHExcavationSiteLostTeam2"
+  },
+  {
+    "dialog_name": "BA_UCHExcavationSiteLostTeam3"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_1_Return"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_1_Complete"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_2"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_2_Return"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_2_Complete"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_3"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_3_Return"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_3_Complete"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_4"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_4_Return"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_4_Complete"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_5"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_5_Return"
+  },
+  {
+    "dialog_name": "LM_Ashon_Traders_Mission_5_Complete"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_2"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_2_Return"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_2_Completed"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_3"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_3_Return"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_3_Completed"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_4"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_4_Return"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_4_Completed"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_5"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_5_Return"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_Mission_5_Completed"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_Oldtimer_After_Finale"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_LAOCAI_Init"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_LAOCAI_IDA_M4_1"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_LAOCAI_LAOCAI_M4"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_LAOCAI_IDA_M4_2"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_LAOCAI_IDA_M5"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_LAOCAI_LAOCAI_M5_1"
+  },
+  {
+    "dialog_name": "LM_Skillon_Pirates_LAOCAI_LAOCAI_M5_2"
+  },
+  {
+    "dialog_name": "Hacking_Console_Military_Init"
+  },
+  {
+    "dialog_name": "Hacking_Console_Military_End"
+  },
+  {
+    "dialog_name": "Hacking_Console_Military_Debug"
+  },
+  {
+    "dialog_name": "Hacking_Console_Outputs"
+  },
+  {
+    "dialog_name": "Quest_SPM_Hermit_Init"
+  },
+  {
+    "dialog_name": "Quest_SPM_Hermit_Start"
+  },
+  {
+    "dialog_name": "Quest_SPM_Hermit_WhyRobot"
+  },
+  {
+    "dialog_name": "Quest_SPM_Hermit_Accepted"
+  },
+  {
+    "dialog_name": "Quest_SPM_Hermit_Finished"
+  },
+  {
+    "dialog_name": "Barking_Robots_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_Robots_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_Robots_Random_1"
+  },
+  {
+    "dialog_name": "Barking_Robots_Random_2"
+  },
+  {
+    "dialog_name": "Barking_Robots_Random_3"
+  },
+  {
+    "dialog_name": "Barking_Robots_Random_4"
+  },
+  {
+    "dialog_name": "Barking_Robots_Random_5"
+  },
+  {
+    "dialog_name": "Barking_RipperDogs_Random_Init"
+  },
+  {
+    "dialog_name": "Barking_RipperDogs_Random_Dialogues"
+  },
+  {
+    "dialog_name": "Barking_RipperDogs_Random_1"
+  },
+  {
+    "dialog_name": "Barking_RipperDogs_Random_2"
+  },
+  {
+    "dialog_name": "Barking_RipperDogs_Random_3"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_Init"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_Preface"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_Start"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_Active"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_End"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_EndBigBOOM"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_EndSmallBOOM"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_Denied"
+  },
+  {
+    "dialog_name": "Quest_OS_ShiftManager_Finished"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_Init"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_End"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_NoQuest"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_Active"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_Finished"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_BigBOOM"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_SmallBOOM"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_WhoAreYou"
+  },
+  {
+    "dialog_name": "Quest_OS_JackCrater_Dangerous"
+  },
+  {
+    "dialog_name": "Quest_OS_BombControll_Init"
+  },
+  {
+    "dialog_name": "Quest_OS_BombControll_NoQuest"
+  },
+  {
+    "dialog_name": "Quest_OS_BombControll_Selection"
+  },
+  {
+    "dialog_name": "Quest_OS_BombControll_BOOM"
+  },
+  {
+    "dialog_name": "Quest_OS_UnusableConsole"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Debug_Init"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Instance_Entered"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Instance_Seated"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Qualifying_Start"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Qualifying_Completed"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Init"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_RepTooLow"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Start"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Info"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Registered"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Registerd_Return"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Raceway_Init"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Raceway_Receptionist"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_Raceway_PitLaneAccess"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Init"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Welcome"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Return"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Info"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Info_Danger"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Rules"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Qualifying_Abort"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_PlayerStats"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_PlayerStats_Stubmitted"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_PortalReset_Switch"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Qualifying_Completed"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Qualifying_Active"
+  },
+  {
+    "dialog_name": "Hekaton_ARK_GameMaster_Goodluck"
+  },
+  {
+    "dialog_name": "FM_ARK_Debug_Init"
+  },
+  {
+    "dialog_name": "FM_ARK_SunOrbit_Init"
+  },
+  {
+    "dialog_name": "FM_ARK_SunOrbit_Start"
+  },
+  {
+    "dialog_name": "FM_ARK_SunOrbit_Mission"
+  },
+  {
+    "dialog_name": "FM_ARK_SunOrbit_RepTooLow"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_Init"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_RepTooLow"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_Welcome"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_Welcome_Return"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_Ningues"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_Ningues_Return"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_Ningues_Completed"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_Phoenix"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_AfterMission"
+  },
+  {
+    "dialog_name": "FM_ARK_MoFA_NoMission"
+  },
+  {
+    "dialog_name": "Feedback_Survey_Init"
+  },
+  {
+    "dialog_name": "Feedback_Survey_DF"
+  },
+  {
+    "dialog_name": "Feedback_Survey_ReportABug"
+  },
+  {
+    "dialog_name": "Feedback_Survey_GameUpdate"
+  },
+  {
+    "dialog_name": "Feedback_Survey_GameStarts"
+  },
+  {
+    "dialog_name": "Feedback_Survey_HeKaTonHVRace"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Debug_Init"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Debug_Bookmarks"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Debug_Bookmarks_2"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Debug_Bookmarks_3"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Debug_Missions"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Main_Init"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Nemoris"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Tal"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Nemorta"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Remove_Nemorta"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Remove_Nemoris"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Tal_Ixatari"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Tal_Seere"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Tal_Demogo"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Tal_Ulquorran"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Tal_TalonarSector"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Graphalya"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Graphalya_BasmathRho"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Yara"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Bookmark_Set_Yara_OtiZeta"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Tharkan_Init"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Tharkan_Off"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Tharkan_NoMission"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Tharkan_Welcome"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Tharkan_Welcome_TASHinfo"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission1_LogCheckInit"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission1_PreDone"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission1_TashLocations"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission1_Return_SPLIT"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission1_Completed"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Legacy"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Tesch"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Return"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Ambassador_1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Anchor_Console"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Anchor_Console_Mission"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Anchor_IDA"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Ambassador_3_1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Ambassador_3_2"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_NemorisOrbit_Jarod"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Supergate_PDA1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Supergate_PDA2"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Supergate_Console"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Astrolabium_Jarod_1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Astrolabium_Jarod_2"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission2_Completed"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_Intro"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_Intro_DBSet"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_Tragedy"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_Hiding"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_Cerebrator"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_Return"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_Completed"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_TashVision_Init"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_TashVision_1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_TashVision_2"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_TashVision_3"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_TashVision_Return"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_TashVision_Complete"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_CelHyzani"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission3_RemoveCrossbows"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_Return"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_WhatHappened"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_Ancestors"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_ControlTower_Console_Init"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_ControlTower_Console_NoMission"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_ControlTower_Console_Mission"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_ControlTower_Console_Mission_ExperimentalShip"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_ControlTower_Console_Mission_OwnShip"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_ControlTower_Console_Mission_PhalanxExtractors"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_StationCMD_Init"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_StationCMD_NoMission"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_StationCMD_Mission"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_EmitterConsole"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_Completed"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission4_Completed_TalBM"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Return"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_TN5DisabledVessel"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_TN5WhatHappened"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_TN5NewPlan"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5Epilog"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5ShipDesign"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5LegacyFleet"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5SituationGalaxy"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5TalonARExposed"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5Supergates"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5Tash"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Completed_TN5CelHyzani"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Talonar_IDA"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Crawler_IDA"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Yara_Arrival_IDA"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Yara_NexusMainControl_LEGACY"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_LegacyFleet_Jarod_1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_LegacyFleet_Jarod_2a"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_LegacyFleet_Jarod_2b"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Epilog_IDA_1"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Epilog_IDA_2"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Epilog_IDA_3"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Epilog_IDA_4"
+  },
+  {
+    "dialog_name": "SM_TerminalNexus_Mission5_Epilog_IDA_5"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generated": "2026-03-10T08:37:33.832Z",
+  "generated": "2026-03-18T07:50:30.719Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/username/egs-scenarios@main/scenarios/",
   "scenarios": {
     "junkysal": {
@@ -117,7 +117,7 @@
     "reforged-eden-2": {
       "id": "reforged-eden-2",
       "name": "Reforged Eden 2",
-      "description": "Enhanced gameplay with new factions, items, and balance changes",
+      "description": "Reforged Eden 2 is a complete game overhaul that combines Vermillion's Reforged Galaxy 2 and ravien_ff's Project Eden 2 content into a single scenario.",
       "author": "Vermillion & ravien_ff",
       "versions": {
         "b36": {
@@ -164,6 +164,48 @@
             }
           },
           "hasImage": true,
+          "isValid": true,
+          "validationErrors": []
+        },
+        "b44": {
+          "id": "reforged-eden-2",
+          "name": "Reforged Eden 2",
+          "version": "b44",
+          "description": "Reforged Eden 2 is a complete game overhaul that combines Vermillion's Reforged Galaxy 2 and ravien_ff's Project Eden 2 content into a single scenario.",
+          "author": "Vermillion & ravien_ff",
+          "lastUpdated": "2026-03-18T18:35:00Z",
+          "links": {
+            "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3143225812"
+          },
+          "path": "reforged-eden-2/b44/",
+          "files": {
+            "metadata": {
+              "size": 441,
+              "checksum": "f2b354b61105a7c28b95acbc0f013579c97e7f5c8638b1b5a79cc11e71ca29d4",
+              "lastModified": "2026-03-18T07:36:38.776Z"
+            },
+            "factions": {
+              "size": 2052,
+              "checksum": "512f0b98deacb4a72ecca33a9b419b2c0a442fc77e54ab34a7f6cd0c466558b2",
+              "lastModified": "2026-03-18T07:23:28.368Z"
+            },
+            "localization": {
+              "size": 1407315,
+              "checksum": "4b183248098589b314b111d507eb12fae65120bbe6785f2c4bfbf713338185d6",
+              "lastModified": "2026-03-18T07:32:13.944Z"
+            },
+            "traderConfig": {
+              "size": 286429,
+              "checksum": "f72627069c98280c68bcb79aacc2285484699b72025934b87c37189b8d1ac457",
+              "lastModified": "2026-03-18T07:23:28.590Z"
+            },
+            "prefabs": {
+              "size": 487576,
+              "checksum": "ebe87d858de82ad413aba63b18f645807438444fa408360167637ed5b04f73ae",
+              "lastModified": "2026-03-18T07:23:28.837Z"
+            }
+          },
+          "hasImage": false,
           "isValid": true,
           "validationErrors": []
         }
@@ -221,14 +263,61 @@
           "hasImage": true,
           "isValid": true,
           "validationErrors": []
+        },
+        "v1.15": {
+          "id": "vanilla",
+          "name": "Vanilla EGS",
+          "version": "1.15",
+          "description": "Default Empyrion Galactic Survival game scenario with official content",
+          "author": "Eleon Game Studios",
+          "lastUpdated": "2026-03-19T12:00:00Z",
+          "links": {
+            "forum": "https://empyriononline.com/"
+          },
+          "path": "vanilla/v1.15/",
+          "files": {
+            "metadata": {
+              "size": 304,
+              "checksum": "381c7654989195691f3eefb93d6348c237f622cca9f2485fa9d1f15effd91748",
+              "lastModified": "2026-03-18T07:45:01.379Z"
+            },
+            "factions": {
+              "size": 1613,
+              "checksum": "a74d1c22d57d44721a4589071aa72c4bfba3c92567260fd0041e891ba545a885",
+              "lastModified": "2026-03-18T07:23:28.261Z"
+            },
+            "localization": {
+              "size": 4272642,
+              "checksum": "36a7eb26464592c2997d971b075ad7eaa30038f7de58246609fb69a280337b84",
+              "lastModified": "2026-03-18T07:48:29.912Z"
+            },
+            "traderConfig": {
+              "size": 97249,
+              "checksum": "ac6b62468bcbb8d3a05e24331116cb156abeac689bb8ba160b58cde16abb43da",
+              "lastModified": "2026-03-18T07:23:28.296Z"
+            },
+            "prefabs": {
+              "size": 426159,
+              "checksum": "1506a1776761fc878b570ebbaf8d49fad498715964343b650dedd70ae081be29",
+              "lastModified": "2026-03-18T07:23:28.459Z"
+            },
+            "image": {
+              "size": 21210,
+              "checksum": "dc6ed23230ab2194f782b69ddc0ecc6d24f115c1a72a6c3374b5e77cc893ecf5",
+              "lastModified": "2026-03-10T07:26:11.862Z"
+            }
+          },
+          "hasImage": true,
+          "isValid": true,
+          "validationErrors": []
         }
       }
     }
   },
   "stats": {
     "totalScenarios": 4,
-    "totalVersions": 4,
-    "validVersions": 4,
+    "totalVersions": 6,
+    "validVersions": 6,
     "invalidVersions": 0
   }
 }

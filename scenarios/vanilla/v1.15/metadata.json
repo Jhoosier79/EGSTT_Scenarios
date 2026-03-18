@@ -1,0 +1,11 @@
+{
+  "id": "vanilla",
+  "name": "Vanilla EGS",
+  "version": "1.15",
+  "description": "Default Empyrion Galactic Survival game scenario with official content",
+  "author": "Eleon Game Studios",
+  "lastUpdated": "2026-03-19T12:00:00Z",
+  "links": {
+    "forum": "https://empyriononline.com/"
+  }
+}
