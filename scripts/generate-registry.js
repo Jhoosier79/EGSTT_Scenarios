@@ -130,16 +130,13 @@ class RegistryGenerator {
 
     const validation = await this.validateScenarioFiles(versionDir);
 
-    // Construct the path for files relative to scenarios/
-    const relativeDir = `${scenarioName}/${versionName}/`;
-
     return {
       ...metadata,
-      path: relativeDir,
-      files: validation.files,
+      version: versionName, // Use folder name for version
       hasImage: validation.hasImage,
       isValid: validation.isValid,
-      validationErrors: validation.validationErrors
+      validationErrors: validation.validationErrors,
+      source: 'remote'
     };
   }
 
@@ -177,20 +174,18 @@ class RegistryGenerator {
     const scenarioNames = Object.keys(scenarioMap);
     this.log(`Discovered ${scenarioNames.length} scenarios`);
 
-    const scenarios = {};
+    const registry = [];
     let totalVersions = 0;
     let validCount = 0;
     let invalidCount = 0;
 
     for (const scenarioName of scenarioNames) {
       const versions = scenarioMap[scenarioName];
-      const processedVersions = {};
-      let scenarioMetadata = null;
 
       for (const versionName of versions) {
         const versionData = await this.processVersion(scenarioName, versionName);
         if (versionData) {
-          processedVersions[versionName] = versionData;
+          registry.push(versionData);
           totalVersions++;
 
           if (versionData.isValid) {
@@ -198,39 +193,9 @@ class RegistryGenerator {
           } else {
             invalidCount++;
           }
-
-          // Use the latest or first valid metadata as the scenario-level metadata
-          if (!scenarioMetadata || versionData.isValid) {
-            scenarioMetadata = {
-              id: versionData.id,
-              name: versionData.name,
-              description: versionData.description,
-              author: versionData.author
-            };
-          }
         }
       }
-
-      if (Object.keys(processedVersions).length > 0) {
-        scenarios[scenarioName] = {
-          ...scenarioMetadata,
-          versions: processedVersions
-        };
-      }
     }
-
-    const registry = {
-      version: '2.0.0', // Incremented version for schema change
-      generated: new Date().toISOString(),
-      baseUrl: this.baseUrl,
-      scenarios,
-      stats: {
-        totalScenarios: scenarioNames.length,
-        totalVersions,
-        validVersions: validCount,
-        invalidVersions: invalidCount
-      }
-    };
 
     this.log(`Generated registry with ${validCount} valid and ${invalidCount} invalid versions across ${scenarioNames.length} scenarios`);
     return registry;
@@ -240,10 +205,7 @@ class RegistryGenerator {
     try {
       await fs.writeJSON(this.outputPath, registry, { spaces: 2 });
       console.log(`Registry generated successfully: ${this.outputPath}`);
-      console.log(`Total Scenarios: ${registry.stats.totalScenarios}`);
-      console.log(`Total Versions: ${registry.stats.totalVersions}`);
-      console.log(`Valid Versions: ${registry.stats.validVersions}`);
-      console.log(`Invalid Versions: ${registry.stats.invalidVersions}`);
+      console.log(`Total Entries: ${registry.length}`);
     } catch (error) {
       this.error(`Failed to save registry: ${error.message}`);
       process.exit(1);

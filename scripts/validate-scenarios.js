@@ -191,7 +191,7 @@ class ScenarioValidator {
     };
   }
 
-  async validateScenarioFiles(scenarioDir) {
+  async validateScenarioFiles(scenarioDir, expectedVersion) {
     const files = {
       metadata: {
         required: true,
@@ -258,6 +258,11 @@ class ScenarioValidator {
       if (!metadataResult.isValid) {
         validation.errors.push(
           ...metadataResult.errors.map((e) => `Metadata: ${e}`)
+        );
+        validation.isValid = false;
+      } else if (expectedVersion && metadataResult.data.version !== expectedVersion) {
+        validation.errors.push(
+          `Metadata version "${metadataResult.data.version}" does not match folder name "${expectedVersion}"`
         );
         validation.isValid = false;
       }
@@ -366,7 +371,7 @@ class ScenarioValidator {
     for (const versionName of versions) {
       this.log(`Validating scenario version: ${scenarioName}/${versionName}`);
       const versionDir = path.join(scenarioDir, versionName);
-      const validation = await this.validateScenarioFiles(versionDir);
+      const validation = await this.validateScenarioFiles(versionDir, versionName);
 
       versionResults[versionName] = {
         isValid: validation.isValid,

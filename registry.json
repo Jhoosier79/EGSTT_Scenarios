@@ -1,323 +1,93 @@
-{
-  "version": "2.0.0",
-  "generated": "2026-03-18T07:50:30.719Z",
-  "baseUrl": "https://cdn.jsdelivr.net/gh/username/egs-scenarios@main/scenarios/",
-  "scenarios": {
-    "junkysal": {
-      "id": "junkysal",
-      "name": "Junkyard Salvager",
-      "description": "You are a lone salvager. Trained to repair and restore the wrecked vessels of the galactic junkyard, you scavenge for parts and resources, to build something out of nothing. Unfortunately, you have more enemies than friends. Captured and robbed of what little you have, you are left stranded on an arid planet. No oxygen. No resources. Just you, your A.I., and a suit constructor.",
-      "author": "Teakeycee",
-      "versions": {
-        "v0.54": {
-          "id": "junkysal",
-          "name": "Junkyard Salvager",
-          "version": "0.54",
-          "description": "You are a lone salvager. Trained to repair and restore the wrecked vessels of the galactic junkyard, you scavenge for parts and resources, to build something out of nothing. Unfortunately, you have more enemies than friends. Captured and robbed of what little you have, you are left stranded on an arid planet. No oxygen. No resources. Just you, your A.I., and a suit constructor.",
-          "author": "Teakeycee",
-          "lastUpdated": "2025-01-08T09:15:00Z",
-          "links": {
-            "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379971469",
-            "discord": "https://discord.gg/kWJREUjr2M"
-          },
-          "path": "junkysal/v0.54/",
-          "files": {
-            "metadata": {
-              "size": 704,
-              "checksum": "60c9aacbcacb62b06ec08ceb5208979d2bb83e5bee7a593d42c4f37cd3386ae3",
-              "lastModified": "2026-03-10T07:26:11.820Z"
-            },
-            "factions": {
-              "size": 1603,
-              "checksum": "880cb53f3a2d13b3aa97ce0431e966041335c93ddb6b06c7f28de4bc5bef5c3b",
-              "lastModified": "2026-03-10T07:26:11.818Z"
-            },
-            "localization": {
-              "size": 4189469,
-              "checksum": "1496f7d4609841140b58c0e80ebfaa07ec8f1fc1d43e1173287cda923002b337",
-              "lastModified": "2026-03-10T07:26:11.817Z"
-            },
-            "traderConfig": {
-              "size": 103213,
-              "checksum": "b238118248c5d48aad6a033eeb2b1bfc0fdee40166b47bad370b0e533caee14b",
-              "lastModified": "2026-03-10T07:26:11.818Z"
-            },
-            "prefabs": {
-              "size": 1798,
-              "checksum": "005428bdda378d5c00a7deb4f113ada42a975474c65bf964c60afbe1dc343415",
-              "lastModified": "2026-03-10T07:26:11.822Z"
-            },
-            "image": {
-              "size": 67248,
-              "checksum": "3becf8405dccba7d438359b0dab0f294b4712533589496d8b946b7a80ef13c20",
-              "lastModified": "2026-03-10T07:26:11.819Z"
-            }
-          },
-          "hasImage": true,
-          "isValid": true,
-          "validationErrors": []
-        }
-      }
+[
+  {
+    "id": "junkysal",
+    "name": "Junkyard Salvager",
+    "version": "0.54",
+    "description": "You are a lone salvager. Trained to repair and restore the wrecked vessels of the galactic junkyard, you scavenge for parts and resources, to build something out of nothing. Unfortunately, you have more enemies than friends. Captured and robbed of what little you have, you are left stranded on an arid planet. No oxygen. No resources. Just you, your A.I., and a suit constructor.",
+    "author": "Teakeycee",
+    "lastUpdated": "2025-01-08T09:15:00Z",
+    "links": {
+      "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379971469",
+      "discord": "https://discord.gg/kWJREUjr2M"
     },
-    "re1": {
-      "id": "re1",
-      "name": "Reforged Eden 1",
-      "description": "Original Reforged Eden scenario with balanced gameplay and additional content",
-      "author": "Vermillion & ravien_ff",
-      "versions": {
-        "b87": {
-          "id": "re1",
-          "name": "Reforged Eden 1",
-          "version": "b87",
-          "description": "Original Reforged Eden scenario with balanced gameplay and additional content",
-          "author": "Vermillion & ravien_ff",
-          "lastUpdated": "2024-12-20T15:45:00Z",
-          "links": {
-            "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=2550354956"
-          },
-          "path": "re1/b87/",
-          "files": {
-            "metadata": {
-              "size": 357,
-              "checksum": "0e07d1d5ccd9e49b7e99e5556e4a5adf9b524c93c93009f9ec151e4b93f086e3",
-              "lastModified": "2026-03-10T07:26:11.837Z"
-            },
-            "factions": {
-              "size": 2435,
-              "checksum": "e288e95768be06d980569c3c95a2c6bf4714554b4fb10c6ad04207cabbc9deb0",
-              "lastModified": "2026-03-10T07:26:11.837Z"
-            },
-            "localization": {
-              "size": 1082413,
-              "checksum": "db348f62d9c778c991976e3c28038793761aa7828a8240ef49a56ee1bd4a4b5f",
-              "lastModified": "2026-03-10T07:26:11.834Z"
-            },
-            "traderConfig": {
-              "size": 263570,
-              "checksum": "bbf1783fa0ef5ae6e93998ae284188d9af6150594fd1e37f7f8e32ec75bb112d",
-              "lastModified": "2026-03-10T07:26:11.836Z"
-            },
-            "prefabs": {
-              "size": 717333,
-              "checksum": "ca102d42bce45e52dd3d9a641c3e154fce443551e97c2f40c8bd4c260c384fc1",
-              "lastModified": "2026-03-10T07:26:11.841Z"
-            },
-            "image": {
-              "size": 26189,
-              "checksum": "c47087370554b9c529f88b4ca619fc4ab8e175f59550ef2f5565f6b190ae4445",
-              "lastModified": "2026-03-10T07:26:11.837Z"
-            }
-          },
-          "hasImage": true,
-          "isValid": true,
-          "validationErrors": []
-        }
-      }
-    },
-    "reforged-eden-2": {
-      "id": "reforged-eden-2",
-      "name": "Reforged Eden 2",
-      "description": "Reforged Eden 2 is a complete game overhaul that combines Vermillion's Reforged Galaxy 2 and ravien_ff's Project Eden 2 content into a single scenario.",
-      "author": "Vermillion & ravien_ff",
-      "versions": {
-        "b36": {
-          "id": "reforged-eden-2",
-          "name": "Reforged Eden 2",
-          "version": "b36",
-          "description": "Enhanced gameplay with new factions, items, and balance changes",
-          "author": "Vermillion & ravien_ff",
-          "lastUpdated": "2025-01-15T10:30:00Z",
-          "links": {
-            "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3143225812"
-          },
-          "path": "reforged-eden-2/b36/",
-          "files": {
-            "metadata": {
-              "size": 355,
-              "checksum": "b9ea8eb03c990074f952c5022aaa8660b9677fbf8892db9e30f2e456c6bb940b",
-              "lastModified": "2026-03-10T07:26:11.850Z"
-            },
-            "factions": {
-              "size": 2052,
-              "checksum": "512f0b98deacb4a72ecca33a9b419b2c0a442fc77e54ab34a7f6cd0c466558b2",
-              "lastModified": "2026-03-10T07:26:11.850Z"
-            },
-            "localization": {
-              "size": 1313984,
-              "checksum": "5f1c3d778da08b4f8ca7919a6f772467d1aea37c30b86763b8a238318be779e5",
-              "lastModified": "2026-03-10T07:26:11.848Z"
-            },
-            "traderConfig": {
-              "size": 289273,
-              "checksum": "7b01c2a38b4eb7566a027374a6cc9fb6d5538edd674c9adee5bde1ed3f69c1bc",
-              "lastModified": "2026-03-10T07:26:11.849Z"
-            },
-            "prefabs": {
-              "size": 483257,
-              "checksum": "c50af62cbbe048956516f0702b6931b33b226581c539aaa64a33989dba153609",
-              "lastModified": "2026-03-10T07:26:11.855Z"
-            },
-            "image": {
-              "size": 14848,
-              "checksum": "a1bda4f217da77979301939dd0e5b20033920d8e26cc2f1960fd1850e3689474",
-              "lastModified": "2026-03-10T07:26:11.850Z"
-            }
-          },
-          "hasImage": true,
-          "isValid": true,
-          "validationErrors": []
-        },
-        "b44": {
-          "id": "reforged-eden-2",
-          "name": "Reforged Eden 2",
-          "version": "b44",
-          "description": "Reforged Eden 2 is a complete game overhaul that combines Vermillion's Reforged Galaxy 2 and ravien_ff's Project Eden 2 content into a single scenario.",
-          "author": "Vermillion & ravien_ff",
-          "lastUpdated": "2026-03-18T18:35:00Z",
-          "links": {
-            "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3143225812"
-          },
-          "path": "reforged-eden-2/b44/",
-          "files": {
-            "metadata": {
-              "size": 441,
-              "checksum": "f2b354b61105a7c28b95acbc0f013579c97e7f5c8638b1b5a79cc11e71ca29d4",
-              "lastModified": "2026-03-18T07:36:38.776Z"
-            },
-            "factions": {
-              "size": 2052,
-              "checksum": "512f0b98deacb4a72ecca33a9b419b2c0a442fc77e54ab34a7f6cd0c466558b2",
-              "lastModified": "2026-03-18T07:23:28.368Z"
-            },
-            "localization": {
-              "size": 1407315,
-              "checksum": "4b183248098589b314b111d507eb12fae65120bbe6785f2c4bfbf713338185d6",
-              "lastModified": "2026-03-18T07:32:13.944Z"
-            },
-            "traderConfig": {
-              "size": 286429,
-              "checksum": "f72627069c98280c68bcb79aacc2285484699b72025934b87c37189b8d1ac457",
-              "lastModified": "2026-03-18T07:23:28.590Z"
-            },
-            "prefabs": {
-              "size": 487576,
-              "checksum": "ebe87d858de82ad413aba63b18f645807438444fa408360167637ed5b04f73ae",
-              "lastModified": "2026-03-18T07:23:28.837Z"
-            }
-          },
-          "hasImage": false,
-          "isValid": true,
-          "validationErrors": []
-        }
-      }
-    },
-    "vanilla": {
-      "id": "vanilla",
-      "name": "Vanilla EGS",
-      "description": "Default Empyrion Galactic Survival game scenario with official content",
-      "author": "Eleon Game Studios",
-      "versions": {
-        "v1.12.0": {
-          "id": "vanilla",
-          "name": "Vanilla EGS",
-          "version": "1.12.0",
-          "description": "Default Empyrion Galactic Survival game scenario with official content",
-          "author": "Eleon Game Studios",
-          "lastUpdated": "2025-01-10T12:00:00Z",
-          "links": {
-            "forum": "https://empyriononline.com/"
-          },
-          "path": "vanilla/v1.12.0/",
-          "files": {
-            "metadata": {
-              "size": 308,
-              "checksum": "256bd9c2eb1804b169467fbede357d11cc912724d220c6cbc683a75b9fc6acc6",
-              "lastModified": "2026-03-10T07:26:11.862Z"
-            },
-            "factions": {
-              "size": 1546,
-              "checksum": "bac9e4a498b719f8db73d149b4a9d1a810e8716f39dd992c6ab95689b6341f2a",
-              "lastModified": "2026-03-10T07:26:11.861Z"
-            },
-            "localization": {
-              "size": 4189469,
-              "checksum": "1496f7d4609841140b58c0e80ebfaa07ec8f1fc1d43e1173287cda923002b337",
-              "lastModified": "2026-03-10T07:26:11.860Z"
-            },
-            "traderConfig": {
-              "size": 93188,
-              "checksum": "b68275556d8ecc3f7ceb94573a69c4c8a3ec573589d0d3bc7e9224f4be18ffc8",
-              "lastModified": "2026-03-10T07:26:11.861Z"
-            },
-            "prefabs": {
-              "size": 418380,
-              "checksum": "893730a92853c9b1a44b75e378dca2e1fe9f4e02c5f1e50e2fcb18eceff4ef3b",
-              "lastModified": "2026-03-10T07:26:11.864Z"
-            },
-            "image": {
-              "size": 21210,
-              "checksum": "dc6ed23230ab2194f782b69ddc0ecc6d24f115c1a72a6c3374b5e77cc893ecf5",
-              "lastModified": "2026-03-10T07:26:11.862Z"
-            }
-          },
-          "hasImage": true,
-          "isValid": true,
-          "validationErrors": []
-        },
-        "v1.15": {
-          "id": "vanilla",
-          "name": "Vanilla EGS",
-          "version": "1.15",
-          "description": "Default Empyrion Galactic Survival game scenario with official content",
-          "author": "Eleon Game Studios",
-          "lastUpdated": "2026-03-19T12:00:00Z",
-          "links": {
-            "forum": "https://empyriononline.com/"
-          },
-          "path": "vanilla/v1.15/",
-          "files": {
-            "metadata": {
-              "size": 304,
-              "checksum": "381c7654989195691f3eefb93d6348c237f622cca9f2485fa9d1f15effd91748",
-              "lastModified": "2026-03-18T07:45:01.379Z"
-            },
-            "factions": {
-              "size": 1613,
-              "checksum": "a74d1c22d57d44721a4589071aa72c4bfba3c92567260fd0041e891ba545a885",
-              "lastModified": "2026-03-18T07:23:28.261Z"
-            },
-            "localization": {
-              "size": 4272642,
-              "checksum": "36a7eb26464592c2997d971b075ad7eaa30038f7de58246609fb69a280337b84",
-              "lastModified": "2026-03-18T07:48:29.912Z"
-            },
-            "traderConfig": {
-              "size": 97249,
-              "checksum": "ac6b62468bcbb8d3a05e24331116cb156abeac689bb8ba160b58cde16abb43da",
-              "lastModified": "2026-03-18T07:23:28.296Z"
-            },
-            "prefabs": {
-              "size": 426159,
-              "checksum": "1506a1776761fc878b570ebbaf8d49fad498715964343b650dedd70ae081be29",
-              "lastModified": "2026-03-18T07:23:28.459Z"
-            },
-            "image": {
-              "size": 21210,
-              "checksum": "dc6ed23230ab2194f782b69ddc0ecc6d24f115c1a72a6c3374b5e77cc893ecf5",
-              "lastModified": "2026-03-10T07:26:11.862Z"
-            }
-          },
-          "hasImage": true,
-          "isValid": true,
-          "validationErrors": []
-        }
-      }
-    }
+    "hasImage": true,
+    "isValid": true,
+    "validationErrors": [],
+    "source": "remote"
   },
-  "stats": {
-    "totalScenarios": 4,
-    "totalVersions": 6,
-    "validVersions": 6,
-    "invalidVersions": 0
+  {
+    "id": "re1",
+    "name": "Reforged Eden 1",
+    "version": "b87",
+    "description": "Original Reforged Eden scenario with balanced gameplay and additional content",
+    "author": "Vermillion & ravien_ff",
+    "lastUpdated": "2024-12-20T15:45:00Z",
+    "links": {
+      "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=2550354956"
+    },
+    "hasImage": true,
+    "isValid": true,
+    "validationErrors": [],
+    "source": "remote"
+  },
+  {
+    "id": "reforged-eden-2",
+    "name": "Reforged Eden 2",
+    "version": "b36",
+    "description": "Enhanced gameplay with new factions, items, and balance changes",
+    "author": "Vermillion & ravien_ff",
+    "lastUpdated": "2025-01-15T10:30:00Z",
+    "links": {
+      "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3143225812"
+    },
+    "hasImage": true,
+    "isValid": true,
+    "validationErrors": [],
+    "source": "remote"
+  },
+  {
+    "id": "reforged-eden-2",
+    "name": "Reforged Eden 2",
+    "version": "b44",
+    "description": "Reforged Eden 2 is a complete game overhaul that combines Vermillion's Reforged Galaxy 2 and ravien_ff's Project Eden 2 content into a single scenario.",
+    "author": "Vermillion & ravien_ff",
+    "lastUpdated": "2026-03-18T18:35:00Z",
+    "links": {
+      "scenario": "https://steamcommunity.com/sharedfiles/filedetails/?id=3143225812"
+    },
+    "hasImage": false,
+    "isValid": true,
+    "validationErrors": [],
+    "source": "remote"
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla EGS",
+    "version": "1.12.0",
+    "description": "Default Empyrion Galactic Survival game scenario with official content",
+    "author": "Eleon Game Studios",
+    "lastUpdated": "2025-01-10T12:00:00Z",
+    "links": {
+      "forum": "https://empyriononline.com/"
+    },
+    "hasImage": true,
+    "isValid": true,
+    "validationErrors": [],
+    "source": "remote"
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla EGS",
+    "version": "1.15",
+    "description": "Default Empyrion Galactic Survival game scenario with official content",
+    "author": "Eleon Game Studios",
+    "lastUpdated": "2026-03-19T12:00:00Z",
+    "links": {
+      "forum": "https://empyriononline.com/"
+    },
+    "hasImage": true,
+    "isValid": true,
+    "validationErrors": [],
+    "source": "remote"
   }
-}
+]
